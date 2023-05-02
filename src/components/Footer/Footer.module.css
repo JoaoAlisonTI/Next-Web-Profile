@@ -1,0 +1,13 @@
+.myFooter {
+  margin-top: 75px;
+  padding-bottom: 12px;
+  text-align: center;
+  font-size: 13px;
+}
+.myFooter > p {
+  padding: 5px;
+}
+.myFooter > p > a {
+  color: #f8f8f2;
+  font-weight: bold;
+}
