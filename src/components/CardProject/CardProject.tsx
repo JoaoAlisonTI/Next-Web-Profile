@@ -1,16 +1,20 @@
 import styles from '@/components/CardProject/CardProject.module.css'
 
-export default function CardProject() {
+
+export default function CardProject(props) {
+  const { imgSrc, projectName, projectDescription, projectLink } = props;
+  
   return (
     
     <div className={styles.project}>
-                <img src="" alt="Imagem do projeto" />
-                <div className={styles.info}>
-                <h4>Demo Project</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <a href="#">access</a>
-                </div>
-              </div>
+    <img src="https://github.com/JoaoAlisonTI.png" alt="Imagem do projeto" />
+    <div className={styles.info}>
+    <h4>{projectName}</h4>
+    <p>{projectDescription}</p>
+    <a href="{projectLink}" target="_blank">access
+    </a>
+    </div>
+    </div>
     
     )
 }

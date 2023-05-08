@@ -1,12 +1,5 @@
 import Head from 'next/head'
-import Header from '@/components/Header/Header.tsx'
-import CardProject from '@/components/CardProject/CardProject.tsx'
-import Footer from '@/components/Footer/Footer.tsx'
-
-import styles from '@/styles/Home.module.css'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import HomePage from './HomePage/HomePage.tsx'
 
 export default function Home() {
   return (
@@ -17,26 +10,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={inter.className}>
-        <Header />
-        <section className={styles.sectionAbout}>
-          <div className={styles.aboutMe}>
-                <p>Hey there 👋🏽</p>
-                <h1>Sou João Alison</h1>
-                <h3>Desenvolvedor e Técnico em Informática</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-              <a href="#" className={styles.btnCv}>Leia mais</a>
-        </section>
-        
-        <section className={styles.sectionProjects}>
-          <h3>Meus últimos projetos <i>icon</i></h3>
-          <CardProject />
-          <CardProject />
-          <CardProject />
-        </section>
-        
-        <Footer />
+      <main>
+        <HomePage />
       </main>
     </>
   )

@@ -37,3 +37,12 @@
 .btnMenu:hover, .btnChange:hover {
   background-color: #3d4c7a;
 }
+
+.Menu {
+  background-color: blue;
+  padding: 20px;
+}
+.menu {
+  margin-top: 100px;
+  background-color: red;
+}

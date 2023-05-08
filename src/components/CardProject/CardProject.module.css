@@ -11,6 +11,7 @@
 }
 .project > img {
   width: 265px;
+  height: 180px;
   border-radius: 10px;
 }
 .info > h4 {
