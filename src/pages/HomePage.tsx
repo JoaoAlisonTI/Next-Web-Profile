@@ -1,23 +1,25 @@
 import Header from '@/components/Header/Header.tsx'
-import Menu from '@/components/Menu/Menu.tsx'
 import CardProject from '@/components/CardProject/CardProject.tsx'
 import Footer from '@/components/Footer/Footer.tsx'
+import Link from 'next/link'
 
-import styles from './styles/HomePage.module.css'
+import styles from '../styles/HomePage.module.css'
 
 export default function HomePage() {
   return (
   <>
     <Header />
         <section className={styles.sectionAbout}>
-         <Menu />
           <div className={styles.aboutMe}>
                 <p>Hey there 👋🏽</p>
                 <h1>Sou João Alison</h1>
                 <h3>Desenvolvedor e Técnico em Informática</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
-              <a href="#" className={styles.btnCv}>Leia mais</a>
+              <Link className={styles.btnCv}
+              href="ProfilePage">
+              Leia mais
+              </Link>
         </section>
         
         <section className={styles.sectionProjects}>
