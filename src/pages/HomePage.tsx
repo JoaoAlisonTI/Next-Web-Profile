@@ -2,6 +2,7 @@ import Header from '@/components/Header/Header'
 import CardProject from '@/components/CardProject/CardProject'
 import Footer from '@/components/Footer/Footer'
 import Link from 'next/link'
+import Image from 'next/image'
 
 import styles from '../styles/HomePage.module.css'
 
@@ -11,13 +12,16 @@ export default function HomePage() {
     <Header />
         <section className={styles.sectionAbout}>
           <div className={styles.aboutMe}>
-              {/*<div className={styles.divImage}>
-                <img src="https://github.com/JoaoAlisonTI.png" />
-              </div>*/}
+              <div className={styles.divImage}>
+                <Image 
+                src="/InFrame_1684619717237.jpg" 
+                width={80} 
+                height={80}  />
+              </div>
                 <p>Hey there 👋🏽</p>
                 <h1>Sou João Alison</h1>
                 <h3>Desenvolvedor e Técnico em Informática</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Como um desenvolvedor ful-stack, dedico-me a transformar ideias em aplicações web. Explore meu  portifólio monstrando minha experiência em desenvolvimento web</p>
               </div>
               <Link className={styles.btnCv}
               href="ProfilePage">

@@ -51,6 +51,7 @@ body {
   background-color: #282a36;
   color: #f8f8f2;
   font-family: "Segoe UI";
+  height: 100vh;
 }
 a {
   text-decoration: none;
