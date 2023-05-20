@@ -1,10 +1,14 @@
 .sectionAbout {
-  margin: 120px 25px 25px 25px;
+  margin: 100px 25px 25px 25px;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
+.divImage > Image {
+  border: 1px solid black;
+}
 .aboutMe {
+  margin-top: 25px;
   padding-bottom: 50px;
 }
 .aboutMe > p {
@@ -25,7 +29,7 @@
   background-color: #ff5555;
   text-decoration: none;
   color: #f8f8f2;
-  width: 50px;
+  width: 85px;
   border-radius: 10px;
   font-weight: 500;
   transition: all 0.4s;
