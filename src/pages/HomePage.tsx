@@ -14,12 +14,11 @@ export default function HomePage() {
           <div className={styles.aboutMe}>
               <div className={styles.divImage}>
                 <Image 
-                src="/InFrame_1684619717237.jpg" 
+                src="/photoperfil.png" 
                 alt="Minha imagem de perfil"
                 width={120} 
                 height={120}  />
               </div>
-                <p>Hey there 👋🏽</p>
                 <h1>Sou João Alison</h1>
                 <h3>Desenvolvedor e Técnico em Informática</h3>
                 <p>Como um desenvolvedor ful-stack, dedico-me a transformar ideias em aplicações web. Explore meu  portifólio monstrando minha experiência em desenvolvimento web</p>
