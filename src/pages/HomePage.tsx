@@ -1,6 +1,6 @@
-import Header from '@/components/Header/Header.tsx'
-import CardProject from '@/components/CardProject/CardProject.tsx'
-import Footer from '@/components/Footer/Footer.tsx'
+import Header from '@/components/Header/Header'
+import CardProject from '@/components/CardProject/CardProject'
+import Footer from '@/components/Footer/Footer'
 import Link from 'next/link'
 
 import styles from '../styles/HomePage.module.css'
