@@ -11,6 +11,9 @@ export default function HomePage() {
     <Header />
         <section className={styles.sectionAbout}>
           <div className={styles.aboutMe}>
+              {/*<div className={styles.divImage}>
+                <img src="https://github.com/JoaoAlisonTI.png" />
+              </div>*/}
                 <p>Hey there 👋🏽</p>
                 <h1>Sou João Alison</h1>
                 <h3>Desenvolvedor e Técnico em Informática</h3>
