@@ -15,6 +15,7 @@ export default function HomePage() {
               <div className={styles.divImage}>
                 <Image 
                 src="/InFrame_1684619717237.jpg" 
+                alt="Minha imagem de perfil"
                 width={80} 
                 height={80}  />
               </div>
