@@ -5,11 +5,8 @@ import Image from 'next/image'
 import styles from '@/components/CardProject/CardProject.module.css'
 
 interface CardProjectProps {
-  imgSrc: string;
   projectName: string;
   projectDescription: string;
-  linkOnline: string;
-  linkGithub: string;
 }
 
 export default function CardProject(props: CardProjectProps) {
