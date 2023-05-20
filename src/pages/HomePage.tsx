@@ -15,18 +15,20 @@ export default function HomePage() {
                 <Image 
                 src="/photoperfil.png" 
                 alt="Minha imagem de perfil"
-                width={180} 
-                height={180}  />
+                width={190} 
+                height={190}  />
               </div>
           <div className={styles.aboutMe}>
                 <h1>Sou João Alison</h1>
                 <h3>Desenvolvedor e Técnico em Informática</h3>
                 <p>Como um desenvolvedor ful-stack, dedico-me a transformar ideias em aplicações web. Explore meu  portifólio monstrando minha experiência em desenvolvimento web</p>
               </div>
+              <div>
               <Link className={styles.btnCv}
               href="ProfilePage">
               Leia mais
               </Link>
+              </div>
         </section>
         
         <section className={styles.sectionProjects}>

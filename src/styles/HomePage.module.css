@@ -12,7 +12,7 @@
   padding-bottom: 50px;
 }
 .aboutMe > p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 25px;
 }
 .aboutMe > h1 {
@@ -21,21 +21,21 @@
 .aboutMe > h3 {
   margin-top: 8px;
   margin-bottom: 10px;
-  font-size: 25px;
+  font-size: 23px;
   text-align: center;
 }
 .btnCv {
   padding: 14px 15px;
-  background-color: #ff5555;
+  background-color: #fb3f3f;
   text-decoration: none;
   color: #f8f8f2;
-  width: 85px;
+  width: auto;
   border-radius: 10px;
   font-weight: 500;
   transition: all 0.4s;
 }
 .btnCv:hover {
-  background-color: #fb3f3f;
+  background-color: #ff5555;
 }
 
 .sectionProjects {

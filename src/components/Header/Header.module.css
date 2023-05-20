@@ -14,6 +14,12 @@
   width: 100%;
   font-size: 17px;
 }
+.myHeader > span {
+  background-color: #3d4c7a;
+  color: #f8f8f2;
+  border-radius: 100%;
+  padding: 10px;
+}
 .btnMenu {
   margin-left: 10px;
   padding: 10px 15px 8px 15px;

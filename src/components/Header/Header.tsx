@@ -22,7 +22,7 @@ export default function Header() {
       <button onClick={handleMenuClick} className={styles.btnMenu}>
       <SlMenu />
       </button>
-      <h3 className={styles.logoTitle}>João Alison ⚡</h3>
+      <span className={styles.logoTitle}><h3>JA⚡</h3></span> 
       <button className={styles.btnChange}>
       <FaRegSun />
       </button>
