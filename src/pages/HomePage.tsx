@@ -16,8 +16,8 @@ export default function HomePage() {
                 <Image 
                 src="/InFrame_1684619717237.jpg" 
                 alt="Minha imagem de perfil"
-                width={80} 
-                height={80}  />
+                width={120} 
+                height={120}  />
               </div>
                 <p>Hey there 👋🏽</p>
                 <h1>Sou João Alison</h1>
