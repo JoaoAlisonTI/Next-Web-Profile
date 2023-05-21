@@ -5,7 +5,8 @@
   text-align: center;
 }
 .divImage > Image {
-  border: 1px solid black;
+  border: 2px solid black;
+  padding: 3px;
 }
 .aboutMe {
   margin-top: 25px;
@@ -26,7 +27,7 @@
 }
 .btnCv {
   padding: 14px 15px;
-  background-color: #fb3f3f;
+  background-color: #;
   text-decoration: none;
   color: #f8f8f2;
   width: auto;

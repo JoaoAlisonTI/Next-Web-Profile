@@ -3,6 +3,7 @@ import styles from '@/components/Header/Header.module.css'
 import { SlMenu } from 'react-icons/sl'
 import { MdClose } from 'react-icons/md'
 import { FaRegSun, FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
+import Image from 'next/image'
 
 export default function Header() {
   
@@ -22,7 +23,10 @@ export default function Header() {
       <button onClick={handleMenuClick} className={styles.btnMenu}>
       <SlMenu />
       </button>
-      <span className={styles.logoTitle}><h3>JA⚡</h3></span> 
+      <span className={styles.logoTitle}>
+      <Image src="" alt="logo" 
+      width={30} height={30} 
+      /></span> 
       <button className={styles.btnChange}>
       <FaRegSun />
       </button>
