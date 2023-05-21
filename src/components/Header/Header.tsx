@@ -25,7 +25,7 @@ export default function Header() {
       </button>
       <span className={styles.logoTitle}>
       <Image src="/logo.png" alt="logo" 
-      width={30} height={30} 
+      width={60} height={60} 
       /></span> 
       <button className={styles.btnChange}>
       <FaRegSun />

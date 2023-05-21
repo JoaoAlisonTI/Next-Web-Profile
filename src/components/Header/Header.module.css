@@ -14,10 +14,6 @@
   width: 100%;
   font-size: 17px;
 }
-.myHeader > span {
-  border-radius: 100%;
-  padding: 10px;
-}
 .btnMenu {
   margin-left: 10px;
   padding: 10px 15px 8px 15px;
