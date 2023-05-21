@@ -1,5 +1,5 @@
 .myFooter {
-  margin-top: 75px;
+  margin-top: 85px;
   padding-bottom: 12px;
   text-align: center;
   font-size: 13px;
@@ -11,4 +11,5 @@
 .myFooter > p > a {
   color: #f8f8f2;
   font-weight: bold;
+  cursor: pointer;
 }

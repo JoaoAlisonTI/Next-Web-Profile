@@ -9,14 +9,14 @@
   box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);
   -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);
   -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   width: 100%;
-  font-size: 17px;
+  font-size: 20px;
 }
 .btnMenu {
   margin-left: 10px;
-  padding: 10px 15px 8px 15px;
+  padding: 6px 10px 4px 10px;
   border: none;
   border-radius: 10px;
   background: none;
@@ -26,7 +26,7 @@
 }
 .btnChange {
   margin-right: 10px;
-  padding: 10px 15px 8px 15px;
+  padding: 6px 10px 4px 10px;
   background: none;
   border: none;
   border-radius: 10px;
@@ -35,7 +35,7 @@
   transition: all 0.3s;
 }
 .btnMenu:hover, .btnChange:hover {
-  background-color: #3d4c7a;
+  background-color: #202A45;
 }
 .menuContent {
   top: 0;
@@ -70,7 +70,7 @@
   text-align: center;
 }
 .navLinks a:hover {
-  background-color: #3d4c7a;
+  background-color: #202A45;
 }
 .socialMedia {
   display: flex;
@@ -87,7 +87,7 @@
   transition: all 0.4s;
 }
 .btnMedia:hover {
-  background-color: #3d4c7a;
+  background-color: #202A45;
 }
 .btnMedia > FaLinkedin {
   color: #8be9fd;
