@@ -4,8 +4,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(0, 29, 44, 1.000);
-  backdrop-filter: blur(3px);
+  background-color: rgba(0, 29, 44, 0.9);
+  backdrop-filter: blur(5px);
   box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);
   -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);
   -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);
@@ -42,8 +42,8 @@
   flex-direction: column;
   width: 100%;
   height: 500px;
-  background-color: rgba(40, 42, 54, 0.9);
-  backdrop-filter: blur(6px);
+  background-color: rgba(0, 29, 44, 0.9);
+  backdrop-filter: blur(5px);
   box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);
   -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);
   -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);
@@ -51,6 +51,10 @@
 .divButton {
   padding-top: 10px;
   padding-bottom: 10px;
+  font-size: 24px;
+}
+.divButton > button {
+  font-size: 24px;
 }
 .navLinks {
   margin-top: 90px;
