@@ -13,3 +13,6 @@
   font-weight: bold;
   cursor: pointer;
 }
+.myFooter > p > a:hover {
+  color: #d5d5c8;
+}

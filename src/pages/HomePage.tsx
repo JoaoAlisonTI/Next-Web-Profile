@@ -20,7 +20,7 @@ export default function HomePage() {
           <div className={styles.aboutMe}>
                 <h1>Desenvolvedor Web</h1>
                 <h3></h3>
-                <p>Como um desenvolvedor full-stack, dedico-me a transformar ideias em aplicações web inovadoras. Explore meu portifólio, monstrando minha experiência em desenvolvimento web.</p>
+                <p>Como um desenvolvedor full-stack, dedico-me a transformar ideias em aplicações web inovadoras, buscando sempre as melhores ferramentas e métricas de desenvolvimento. Explore meu portifólio, monstrando minha experiência em desenvolvimento web.</p>
               </div>
               <div>
               <Link className={styles.btnCv}

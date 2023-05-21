@@ -7,6 +7,8 @@ import Image from 'next/image'
 
 export default function Header() {
   
+  
+  //Script do Menu
   const [menuOpen, setMenuOpen] = useState(false);
 
   const handleMenuClick = () => {
@@ -23,10 +25,11 @@ export default function Header() {
       <button onClick={handleMenuClick} className={styles.btnMenu}>
       <SlMenu />
       </button>
-      <span className={styles.logoTitle}>
+      <span className={styles.logo}>
       <Image src="/logo.png" alt="logo" 
       width={90} height={90} 
-      /></span> 
+      />
+      </span> 
       <button className={styles.btnChange}>
       <FaRegSun />
       </button>
