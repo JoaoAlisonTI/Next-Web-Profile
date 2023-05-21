@@ -30,10 +30,6 @@ export default function HomePage() {
               </div>
         </section>
         
-        /*<section className={styles.sectionProjects}>
-          <h3>Últimos projetos <i>icon</i></h3>
-          
-        </section>*/
         
         <Footer />
   </>
