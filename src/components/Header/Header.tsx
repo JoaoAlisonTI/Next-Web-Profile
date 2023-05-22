@@ -52,7 +52,7 @@ export default function Header() {
           <div className={styles.socialMedia}>
             <a href="https://github.com/JoaoAlisonTI" target="_blank" className={styles.btnMedia}><FaGithub />
             </a>
-            <a href="www.linkedin.com/in/joão-alison-de-sousa-martins-139b21238" target="_blank" className={styles.btnMedia}><FaLinkedin />
+            <a href="https://www.linkedin.com/in/joão-alison-de-sousa-martins" target="_blank" className={styles.btnMedia}><FaLinkedin />
             </a>
             <a href="https://www.instagram.com/joao_alison_23/" target="_blank" className={styles.btnMedia}><FaInstagram />
             </a>
