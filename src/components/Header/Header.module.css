@@ -31,6 +31,7 @@
   font-size: 16px;
   color: #f8f8f2;
   transition: all 0.3s;
+  display: none;
 }
 .btnMenu:hover, .btnChange:hover {
   background-color: #202A45;

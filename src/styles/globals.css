@@ -54,6 +54,17 @@ body {
   font-family: "Segoe UI";
   height: 100vh;
 }
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #2c2c31;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #9e9ea0;
+}
 a {
   text-decoration: none;
 }

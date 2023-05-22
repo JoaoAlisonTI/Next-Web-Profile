@@ -4,8 +4,9 @@
   flex-direction: column;
   text-align: center;
 }
-.divImage > Image {
-  border: 2px solid black;
+.divImage {
+  border-radius: 100%;
+  border: 2px solid #202A45;
   padding: 3px;
 }
 .aboutMe {
@@ -13,7 +14,9 @@
   padding-bottom: 50px;
 }
 .aboutMe > p {
-  font-size: 16px;
+  font-size: 1.2rem;
+  color: #bebebf;
+  /*font-size: 16px;*/
   line-height: 25px;
 }
 .aboutMe > h1 {
