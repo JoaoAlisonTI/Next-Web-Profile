@@ -5,8 +5,10 @@
   text-align: center;
 }
 .divImage {
-  border-radius: 100%;
   border: 2px solid #202A45;
+}
+.divImage > Image {
+  border-radius: 100%;
   padding: 3px;
 }
 .aboutMe {
@@ -14,19 +16,13 @@
   padding-bottom: 50px;
 }
 .aboutMe > p {
-  font-size: 1.2rem;
+  margin-top: 8px;
   color: #bebebf;
-  /*font-size: 16px;*/
+  font-size: 16px;
   line-height: 25px;
 }
 .aboutMe > h1 {
-  font-size: 37px;
-}
-.aboutMe > h3 {
-  margin-top: 8px;
-  margin-bottom: 10px;
-  font-size: 23px;
-  text-align: center;
+  font-size: 36px;
 }
 .btnCv {
   padding: 14px 15px;
