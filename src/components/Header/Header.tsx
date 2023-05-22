@@ -4,6 +4,7 @@ import { SlMenu } from 'react-icons/sl'
 import { MdClose } from 'react-icons/md'
 import { FaRegSun, FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Header() {
   
@@ -44,14 +45,17 @@ export default function Header() {
           </button>
           </div>
           <div className={styles.navLinks}>
-              <a>Home</a>
-              <a>Sobre mim</a>
-              <a>Projetos</a>
+              <Link href="HomePage">Home</Link>
+              <Link href="ProfilePage">Sobre mim</Link>
+              <Link>Projetos</Link>
           </div>
           <div className={styles.socialMedia}>
-            <a className={styles.btnMedia}><FaGithub /></a>
-            <a className={styles.btnMedia}><FaLinkedin /></a>
-            <a className={styles.btnMedia}><FaInstagram /></a>
+            <a href="https://github.com/JoaoAlisonTI" target="_blank" className={styles.btnMedia}><FaGithub />
+            </a>
+            <a className={styles.btnMedia}><FaLinkedin />
+            </a>
+            <a className={styles.btnMedia}><FaInstagram />
+            </a>
           </div>
         </div>
       )}
