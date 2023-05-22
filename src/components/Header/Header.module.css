@@ -87,16 +87,10 @@
   border-radius: 10px;
   background: none;
   text-decoration: none;
-  /*color: #f8f8f2;*/
+  color: #f8f8f2;
   font-size: 20px;
   transition: all 0.4s;
 }
 .btnMedia:hover {
   background-color: #202A45;
-}
-.btnMedia > FaLinkedin {
-  color: #8be9fd;
-}
-.btnMedia > FaInstagram {
-  color: #ffb86c;
 }
