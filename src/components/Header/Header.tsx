@@ -45,16 +45,16 @@ export default function Header() {
           </button>
           </div>
           <div className={styles.navLinks}>
-              <Link href="HomePage">Home</Link>
+              <Link href="">Home</Link>
               <Link href="ProfilePage">Sobre mim</Link>
               <Link href="#">Projetos</Link>
           </div>
           <div className={styles.socialMedia}>
             <a href="https://github.com/JoaoAlisonTI" target="_blank" className={styles.btnMedia}><FaGithub />
             </a>
-            <a className={styles.btnMedia}><FaLinkedin />
+            <a href="www.linkedin.com/in/joão-alison-de-sousa-martins-139b21238" target="_blank" className={styles.btnMedia}><FaLinkedin />
             </a>
-            <a className={styles.btnMedia}><FaInstagram />
+            <a href="https://www.instagram.com/joao_alison_23/" target="_blank" className={styles.btnMedia}><FaInstagram />
             </a>
           </div>
         </div>
