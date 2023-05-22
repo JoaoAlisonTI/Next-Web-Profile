@@ -86,7 +86,7 @@
   margin: 4px;
   border-radius: 10px;
   background: none;
-  color: #f8f8f2;
+  /*color: #f8f8f2;*/
   font-size: 20px;
   transition: all 0.4s;
 }

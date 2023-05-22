@@ -45,7 +45,7 @@ export default function Header() {
           </button>
           </div>
           <div className={styles.navLinks}>
-              <Link href="">Home</Link>
+              <Link href="/">Home</Link>
               <Link href="ProfilePage">Sobre mim</Link>
               <Link href="#">Projetos</Link>
           </div>
