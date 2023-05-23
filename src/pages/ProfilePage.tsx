@@ -1,5 +1,6 @@
 import Header from '@/components/Header/Header'
 import Footer from '@/components/Footer/Footer'
+import SkillsStats from '@/components/SkillsStats/SkillsStats'
 
 import styles from '../styles/ProfilePage.module.css'
 
@@ -51,11 +52,23 @@ Salas Virtuais. Criação e Implementação de Banco de Questões como também a
               <h2>Skills</h2>
               <div className={styles.mySkills}>
               
-                <div className={skillsStats}>
-                
+                <div className={styles.skillsStats}>
+                  <SkillsStats 
+                    skill="Front-end"
+                    stats="50%"
+                  />
+                  <SkillsStats 
+                    skill="Back-end"
+                    stats="35%"
+                  />
+                  <SkillsStats 
+                    skill="Metodologias"
+                    stats="40%"
+                  />
+                  
                 </div>
                 
-                <div className={skillsTech}>
+                <div className={styles.skillsTech}>
                 </div>
               
               </div>
