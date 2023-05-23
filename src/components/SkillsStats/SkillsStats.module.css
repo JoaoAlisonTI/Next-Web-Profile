@@ -1,17 +1,16 @@
 .skillMain {
-  background-color: red;
   width: 100%;
   max-width: 600px;
   margin-top: 20px;
 }
 .skillBar {
   height: 14px;
-  background: green;
+  background: #282828;
   border-radius: 3px;
 }
 .skillPer {
   height: 14px;
-  background: yellow;
+  background: #ff5555;
   position: relative;
   animation: fillBars 2.5 1;
   color: black;
