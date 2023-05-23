@@ -12,7 +12,7 @@
   margin-bottom: 15px;
 }
 .sectionExperience {
-  margin: 40px 25px 25px 25px;
+  margin: 60px 25px 25px 25px;
 }
 .sectionExperience > h2 {
   font-size: 28px;
@@ -20,7 +20,7 @@
   margin-bottom: 15px;
 }
 .sectionExperience div:nth-child(3) {
-  border-left: 3px solid #ff5555;
+  border-left: 3px solid #2b3c6a;
 }
 .myExperience {
   margin-left: 6px;
@@ -31,7 +31,7 @@
   border-radius: 100%;
   width: 15px;
   height: 15px;
-  background-color: #ff5555;
+  background-color: #2b3c6a;
 }
 .myExperience > h5 {
   margin: 10px 0px 10px 0px;
@@ -43,7 +43,7 @@
   line-height: 22px;
 }
 .sectionEducation {
-  margin: 40px 25px 25px 25px;
+  margin: 60px 25px 25px 25px;
 }
 .sectionEducation > h2 {
   font-size: 28px;
@@ -51,7 +51,7 @@
   margin-bottom: 15px;
 }
 .sectionEducation div:nth-child(3) {
-  border-left: 3px solid #ff5555;
+  border-left: 3px solid #2b3c6a;
 }
 .myEducation {
   margin-left: 6px;
@@ -62,7 +62,7 @@
   font-weight: 300;
 }
 .sectionCertifications {
-  margin: 40px 25px 25px 25px;
+  margin: 60px 25px 25px 25px;
 }
 .sectionCertifications > h2 {
   font-size: 28px;
@@ -75,7 +75,7 @@
 }
 
 .sectionSkills {
-  margin: 40px 25px 25px 25px;
+  margin: 60px 25px 25px 25px;
 }
 .sectionSkills > h2 {
   font-size: 28px;
