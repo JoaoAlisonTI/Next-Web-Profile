@@ -6,18 +6,13 @@ export default function CarouselCertifications() {
   return (
     <Carousel>
       <div>
-        <Image src="/certificado-angular.png" alt="Imagem 1" height={140}
-                width={100} />
+        <Image src="/certificado-angular.png" alt="Imagem 1" height={80} />
       </div>
       <div>
-        <Image src="/icon.png" alt="Imagem 2" height={100}
-                width={80} />
-        <p className="legend">Legenda da imagem 2</p>
+        <Image src="/certificado-angular.png" alt="Imagem 2" height={80} />
       </div>
       <div>
-        <Image src="/icon.png" alt="Imagem 3" height={100}
-                width={80} />
-        <p className="legend">Legenda da imagem 3</p>
+        <Image src="/certificado-angular.png" alt="Imagem 3" height={80} />
       </div>
     </Carousel>
   )
