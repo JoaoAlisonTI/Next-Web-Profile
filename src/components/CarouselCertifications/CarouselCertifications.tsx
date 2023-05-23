@@ -6,7 +6,7 @@ export default function CarouselCertifications() {
   return (
     <Carousel>
       <div>
-        <Image src="/icon.png" alt="Imagem 1" height={100}
+        <Image src="/certificado.webp" alt="Imagem 1" height={140}
                 width={100} />
         <p className="legend">Certificado Angular Developer</p>
       </div>
