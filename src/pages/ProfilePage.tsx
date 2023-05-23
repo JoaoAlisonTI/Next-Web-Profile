@@ -1,5 +1,6 @@
 import Header from '@/components/Header/Header'
 import Footer from '@/components/Footer/Footer'
+import CarouselCertifications from '@/components/CarouselCertifications/CarouselCertifications'
 import SkillsStats from '@/components/SkillsStats/SkillsStats'
 
 import styles from '../styles/ProfilePage.module.css'
@@ -41,10 +42,7 @@ Salas Virtuais. Criação e Implementação de Banco de Questões como também a
               <section className={styles.sectionCertifications}>
               <h2>Certifications</h2>
               <div className={styles.myCertifications}>
-                <ul>
-                  <li>Lorem ipsum (Lorem)</li>
-                  <li>Lorem ipsum (lorem)</li>
-                </ul>
+                <CarouselCertifications />
               </div>
               </section>
               
