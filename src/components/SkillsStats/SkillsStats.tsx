@@ -14,7 +14,7 @@ export default function SkillsStats(props: SkillsStatsProps) {
     
     <h3 className={styles.skillName}>{props.skill}</h3>
     <div className={styles.skillBar}>
-      <div className={styles.skillPer} per={props.stats} style={{ maxWidth: props.maxWidthPer }}></div>
+      <div className={styles.skillPer} data-per={props.stats} style={{ maxWidth: props.maxWidthPer }}></div>
       
     </div>
     
