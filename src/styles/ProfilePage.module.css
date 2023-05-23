@@ -64,16 +64,9 @@
 .sectionCertifications {
   margin: 60px 25px 25px 25px;
 }
-.sectionCertifications > h2 {
-  font-size: 28px;
-  margin-top: 8px;
-  margin-bottom: 15px;
+.myCertifications {
+  padding: 0px 30px 0px 30px;
 }
-.myCertifications > ul > li {
-  margin-left: 20.5px;
-  padding-bottom: 7px;
-}
-
 .sectionSkills {
   margin: 60px 25px 25px 25px;
 }
