@@ -63,11 +63,6 @@ Salas Virtuais. Criação e Implementação de Banco de Questões como também a
                     stats="35%"
                     maxWidthPer="35%"
                   />
-                  <SkillsStats 
-                    skill="Metodologias"
-                    stats="40%"
-                    maxWidthPer="40%"
-                  />
                   
                 </div>
                 
