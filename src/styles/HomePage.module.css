@@ -34,6 +34,9 @@
 }
 .btnCv:hover {
   background-color: #293963;
+  transition: all 0.4s;
+  transition-delay: 0.1s;
+  transform: scale(1.1);
 }
 
 .sectionProjects {

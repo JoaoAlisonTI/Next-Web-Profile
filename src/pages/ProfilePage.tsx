@@ -10,7 +10,7 @@ export default function ProfilePage() {
       <section className={styles.sectionProfile}>
               <div className={styles.myProfile}>
                 <h2>Profile</h2>
-                <p>Bem vindo(a)👋🏽, me chamo João Alison e sou amante da Tecnologia e da Programação. Sou Técnico em Informática pela EEEP Gerardo José Dias de Loiola. Foi durante esses 3 onde aprendi e desenvolvi minhas Softs e Hards skills. Tive a grande oportunidade de aprender os conceitos iniciais e fundamentais de Gestão, Redes, Hardware, Software e Desenvolvimento de Sistemas com excelentes profissionais da área. Apesar de ter concluído o ensino técnico, a sede por desenvolver e programar sites/sistemas webs não acabou. Por isso estou sempre interessado em melhorar, buscar novos conhecimentos, métricas, ferramentas, experiências e conquistar meus objetivos.</p>
+                <p>Bem vindo(a)👋🏽, me chamo João Alison e sou amante da Tecnologia e da Programação. Sou Técnico em Informática pela EEEP Gerardo José Dias de Loiola. Foi durante esses 3 anos onde aprendi e desenvolvi minhas Softs e Hards skills. Tive a grande oportunidade de aprender os conceitos iniciais e fundamentais de Gestão, Redes, Hardware, Software e Desenvolvimento de Sistemas com excelentes profissionais da área. Apesar de ter concluído o ensino técnico, a sede por desenvolver e programar sites/sistemas webs não acabou. Por isso estou sempre interessado em melhorar, buscar novos conhecimentos, métricas, ferramentas, experiências e conquistar meus objetivos.</p>
               </div>
               </section>
               
@@ -50,22 +50,14 @@ Salas Virtuais. Criação e Implementação de Banco de Questões como também a
               <section className={styles.sectionSkills}>
               <h2>Skills</h2>
               <div className={styles.mySkills}>
-                <ul>
-                  <li>Portuguese (Native)</li>
-                  <li>English</li>
-                  <li>HTML5</li>
-                  <li>CSS3</li>
-                  <li>JavaScript</li>
-                  <li>Angular</li>
-                  <li>React</li>
-                  <li>NodeJs</li>
-                  <li>NPM</li>
-                  <li>PHP</li>
-                  <li>MySQL</li>
-                  <li>Bootsrap</li>
-                  <li>Git/GitHub</li>
-                  <li>Agile Methodologies</li>
-                </ul>
+              
+                <div className={skillsStats}>
+                
+                </div>
+                
+                <div className={skillsTech}>
+                </div>
+              
               </div>
               </section>
       <Footer />

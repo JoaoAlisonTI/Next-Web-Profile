@@ -12,7 +12,7 @@
   margin-bottom: 15px;
 }
 .sectionExperience {
-  margin: 30px 25px 25px 25px;
+  margin: 40px 25px 25px 25px;
 }
 .sectionExperience > h2 {
   font-size: 28px;
@@ -43,7 +43,7 @@
   line-height: 22px;
 }
 .sectionEducation {
-  margin: 30px 25px 25px 25px;
+  margin: 40px 25px 25px 25px;
 }
 .sectionEducation > h2 {
   font-size: 28px;
@@ -62,7 +62,7 @@
   font-weight: 300;
 }
 .sectionCertifications {
-  margin: 30px 25px 25px 25px;
+  margin: 40px 25px 25px 25px;
 }
 .sectionCertifications > h2 {
   font-size: 28px;
@@ -75,7 +75,7 @@
 }
 
 .sectionSkills {
-  margin: 30px 25px 25px 25px;
+  margin: 40px 25px 25px 25px;
 }
 .sectionSkills > h2 {
   font-size: 28px;
