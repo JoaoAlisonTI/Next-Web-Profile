@@ -1,5 +1,5 @@
 .sectionAbout {
-  margin: 115px 25px 25px 25px;
+  margin: 120px 25px 25px 25px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -15,7 +15,7 @@
 }
 .aboutMe > p {
   margin-top: 8px;
-  color: #bebebf;
+  /*color: #bebebf;*/
   font-size: 16px;
   line-height: 25px;
 }
@@ -27,7 +27,7 @@
   background-color: #202A45;
   text-decoration: none;
   color: #f8f8f2;
-  width: auto;
+  width: 60px;
   border-radius: 10px;
   font-weight: 500;
   transition: all 0.4s;

@@ -29,8 +29,8 @@ const lightTheme = createTheme({
       main: '#00FFFF', // Cor secundária no modo light
     },
     background: {
-      default: '#FFFFFF', // Cor de fundo no modo light
-      paper: '#F5F5F5', // Cor de fundo do papel no modo light
+      default: '#e2e0e0', // Cor de fundo no modo light
+      paper: '#e2e0e0', // Cor de fundo do papel no modo light
     },
     text: {
       primary: '#192030', // Cor do texto no modo light

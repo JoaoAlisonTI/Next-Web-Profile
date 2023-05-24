@@ -22,19 +22,8 @@
   font-size: 16px;
   transition: all 0.3s;
 }
-/*.btnChange {
-  margin-right: 10px;
-  padding: 6px 10px 4px 10px;
-  background: none;
-  border: none;
-  border-radius: 10px;
-  font-size: 16px;
-  color: #f8f8f2;
-  transition: all 0.3s;
-  display: none;
-}*/
 .btnMenu:hover {
-  background-color: #202A45;
+  background-color: #2b3c6a;
 }
 .menuContent {
   top: 0;
@@ -74,7 +63,7 @@
   text-align: center;
 }
 .navLinks a:hover {
-  background-color: #202A45;
+  background-color: #2b3c6a;
 }
 .socialMedia {
   display: flex;
@@ -93,5 +82,5 @@
   transition: all 0.4s;
 }
 .btnMedia:hover {
-  background-color: #202A45;
+  background-color: #2b3c6a/*#202A45*/;
 }

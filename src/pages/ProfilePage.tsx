@@ -64,7 +64,7 @@ Salas Virtuais. Criação e Implementação de Banco de Questões como também a
                   />
                   
                 </div>
-                
+                <h3>Tech Stack</h3>
                 <div className={styles.skillsTech}>
                   <SkillsTech />
                 </div>
