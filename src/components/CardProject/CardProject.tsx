@@ -12,7 +12,7 @@ interface CardProjectProps {
 export default function CardProject(props: CardProjectProps) {
   
   return (
-    
+    <>
     <div className={styles.project}>
     <Image src="/https://github.com/JoaoAlisonTI.png" alt="Imagem do projeto" width={265} height={180} />
     <div className={styles.info}>
@@ -27,6 +27,6 @@ export default function CardProject(props: CardProjectProps) {
     
     </div>
     </div>
-    
+    </>
     )
 }

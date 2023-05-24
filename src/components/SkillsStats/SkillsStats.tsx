@@ -9,7 +9,7 @@ interface SkillsStatsProps {
 export default function SkillsStats(props: SkillsStatsProps) {
   
   return (
-    
+    <>
     <div className={styles.skillMain}>
     
     <h3 className={styles.skillName}>{props.skill}</h3>
@@ -19,6 +19,6 @@ export default function SkillsStats(props: SkillsStatsProps) {
     </div>
     
     </div>
-    
+    </>
     )
 }

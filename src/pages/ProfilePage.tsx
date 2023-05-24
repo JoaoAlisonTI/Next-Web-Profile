@@ -2,6 +2,7 @@ import Header from '@/components/Header/Header'
 import Footer from '@/components/Footer/Footer'
 import CarouselCertifications from '@/components/CarouselCertifications/CarouselCertifications'
 import SkillsStats from '@/components/SkillsStats/SkillsStats'
+import SkillsTech from '@/components/SkillsTech/SkillsTech'
 
 import styles from '../styles/ProfilePage.module.css'
 
@@ -65,6 +66,7 @@ Salas Virtuais. Criação e Implementação de Banco de Questões como também a
                 </div>
                 
                 <div className={styles.skillsTech}>
+                  <SkillsTech />
                 </div>
               
               </div>

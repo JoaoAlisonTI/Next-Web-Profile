@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tech {
+  padding: 4pc;
+  height: 28px;
+  width: 28px;
+  background-color: white;
+}
