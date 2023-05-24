@@ -80,9 +80,8 @@
   margin-top: 8px;
   margin-bottom: 15px;
 }
-.mySkills > ul > li {
-  margin-left: 20.5px;
-  padding-bottom: 7px;
+.skillsTech {
+  margin-top: 20px;
 }
 
 @media screen and (min-width: 1020px) {
