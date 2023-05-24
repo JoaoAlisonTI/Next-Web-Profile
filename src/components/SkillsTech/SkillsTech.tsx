@@ -9,10 +9,10 @@ export default function SkillsTech() {
           <Image src="/html5.svg" alt="Html5 Icon" />
         </div>
         <div className={styles.tech}>
-          <Image src="/assets/css3.svg" alt="Css3 Icon" />
+          <Image src="/css3.svg" alt="Css3 Icon" />
         </div>
         <div className={styles.tech}>
-          <Image src="/assets/php.svg" alt="PHP Icon" />
+          <Image src="/php.svg" alt="PHP Icon" />
         </div>
       </div>
     </>
