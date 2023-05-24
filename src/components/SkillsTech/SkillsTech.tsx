@@ -6,7 +6,7 @@ export default function SkillsTech() {
     <>
       <div className={styles.container}>
         <div className={styles.tech}>
-          <Image src="/html5.svg" alt="Html5 Icon" />
+          <Image src="/html5.svg" alt="Html5 Icon" height={10} width={10} />
         </div>
         <div className={styles.tech}>
           <Image src="/css3.svg" alt="Css3 Icon" />

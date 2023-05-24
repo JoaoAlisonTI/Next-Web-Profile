@@ -4,12 +4,15 @@
   justify-content: center;
 }
 .tech {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 4px;
   padding: 8px;
   background-color: white;
   border-radius: 10px;
 }
 .tech > Image {
-  height: 8px;
-  width: 8px;
+  height: 4px;
+  width: 4px;
 }
