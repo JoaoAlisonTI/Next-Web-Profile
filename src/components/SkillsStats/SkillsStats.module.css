@@ -14,38 +14,27 @@
 .skillPer {
   height: 16px;
   background: #2b3c6a;
-  position: relative;
   animation: fillBars 2.5 1;
   color: black;
 }
 .skillPer::before {
   content: attr(data-per);
-  position: absolute;
   padding: 4px 6px;
   background: #cfcdcd;
-  border-radius: 4px;
   font-size: 12px;
-  top: -38px;
-  right: 0;
-  transform: translateX(50%);
 }
 .skillPer::after {
   content: "";
-  position: absolute;
   width: 10px;
   height: 10px;
   background: #cfcdcd;
-  top: -20px;
-  right: 0;
-  transform: translateX(50%) rotate(45deg);
-  border-radius: 2px;
 }
 
-@keyframes fillBars {
+/*@keyframes fillBars {
   from {
     width: 0;
   }
   to {
     width: 100%;
   }
-}
+}*/

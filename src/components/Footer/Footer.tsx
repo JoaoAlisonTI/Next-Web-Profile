@@ -6,7 +6,7 @@ export default function Footer() {
     <>
     <div className={styles.myFooter}>
               <p>2023 © All Rights Reserved.</p>
-              <p>Website developed by <Link href="https://github.com/JoaoAlisonTI" target="_blank">JoaoAlisonTI⚡</Link></p>
+              <p>Website developed by <Link className={styles.linkGithub} href="https://github.com/JoaoAlisonTI" target="_blank">JoaoAlisonTI⚡</Link></p>
             </div>
     </>
     )

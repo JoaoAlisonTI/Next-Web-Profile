@@ -8,13 +8,12 @@
 .myFooter > p {
   padding: 5px;
 }
-.myFooter > p > Link {
-  text-decoration: none;
+.linkGithub {
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s;
 }
-.myFooter > p > Link:hover {
+.linkGithub:hover {
   transition: all 0.3s ease-in-out;
   transition-delay: 0.1s;
   transform: scale(1.1);
