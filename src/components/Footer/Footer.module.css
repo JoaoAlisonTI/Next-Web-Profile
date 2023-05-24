@@ -9,6 +9,7 @@
   padding: 5px;
 }
 .myFooter > p > a {
+  text-decoration: none;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s;

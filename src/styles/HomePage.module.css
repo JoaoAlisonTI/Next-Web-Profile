@@ -1,5 +1,5 @@
 .sectionAbout {
-  margin: 120px 25px 25px 25px;
+  margin: 128px 25px 25px 25px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -10,7 +10,7 @@
   align-items: center;
 }
 .aboutMe {
-  margin-top: 28px;
+  margin-top: 24px;
   padding-bottom: 50px;
 }
 .aboutMe > p {
