@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import styled from '@/components/SkillsTech/SkillsTech.module.css'
+import styles from '@/components/SkillsTech/SkillsTech.module.css'
 
 export default function SkillsTech() {
   return (
