@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { ThemeProvider, CssBaseline, Switch } from '@mui/material';
-import { darkTheme, lightTheme } from '.../theme/theme';
+import { darkTheme, lightTheme } from '../../theme/theme';
 
 const ThemeToggle = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
