@@ -22,7 +22,7 @@
   content: attr(data-per);
   position: absolute;
   padding: 4px 6px;
-  background: #f1f1f1;
+  background: #cfcdcd;
   border-radius: 4px;
   font-size: 12px;
   top: -38px;
@@ -34,7 +34,7 @@
   position: absolute;
   width: 10px;
   height: 10px;
-  background: #f1f1f1;
+  background: #cfcdcd;
   top: -20px;
   right: 0;
   transform: translateX(50%) rotate(45deg);
