@@ -5,7 +5,9 @@
 }
 .tech {
   padding: 8px;
+  background-color: white;
+}
+.tech > Image {
   height: 16px;
   width: 16px;
-  background-color: white;
 }
