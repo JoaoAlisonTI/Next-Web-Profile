@@ -4,10 +4,12 @@
   justify-content: center;
 }
 .tech {
+  margin: 4px;
   padding: 8px;
   background-color: white;
+  border-radius: 10px;
 }
 .tech > Image {
-  height: 16px;
-  width: 16px;
+  height: 8px;
+  width: 8px;
 }
