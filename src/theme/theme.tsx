@@ -4,17 +4,17 @@ const darkTheme = createTheme({
   palette: {
     mode: 'dark',
     primary: {
-      main: '#FF0000', // Cor primária no modo dark
+      main: '#2b3c6a', // Cor primária no modo dark
     },
     secondary: {
       main: '#00FF00', // Cor secundária no modo dark
     },
     background: {
-      default: '#121212', // Cor de fundo no modo dark
-      paper: '#1E1E1E', // Cor de fundo do papel no modo dark
+      default: '#001D2C', // Cor de fundo no modo dark
+      paper: '#001D2C', // Cor de fundo do papel no modo dark
     },
     text: {
-      primary: '#FFFFFF', // Cor do texto no modo dark
+      primary: '#f8f8f2', // Cor do texto no modo dark
     },
   },
 });
@@ -33,7 +33,7 @@ const lightTheme = createTheme({
       paper: '#F5F5F5', // Cor de fundo do papel no modo light
     },
     text: {
-      primary: '#000000', // Cor do texto no modo light
+      primary: '#192030', // Cor do texto no modo light
     },
   },
 });
