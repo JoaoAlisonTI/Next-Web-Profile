@@ -10,7 +10,7 @@ const darkTheme = createTheme({
       main: '#00FF00', // Cor secundária no modo dark
     },
     background: {
-      default: '#001D2C', // Cor de fundo no modo dark
+      default: '#040600', // Cor de fundo no modo dark
       paper: '#001D2C', // Cor de fundo do papel no modo dark
     },
     text: {
