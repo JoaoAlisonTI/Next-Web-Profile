@@ -1,4 +1,5 @@
 .myHeader {
+  z-index: 999;
   top: 0;
   position: fixed;
   display: flex;
@@ -29,10 +30,11 @@
 .btnMenu:hover {
   background-color: #202A45;
 }
-.myHeader > ThemeToggle {
+.divChange {
   margin-right: 20px;
 }
 .menuContent {
+  z-index: 999;
   top: 0;
   position: fixed;
   display: flex;

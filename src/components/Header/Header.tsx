@@ -27,12 +27,14 @@ export default function Header() {
       <button onClick={handleMenuClick} className={styles.btnMenu}>
       <SlMenu />
       </button>
-      <span className={styles.logo}>
+      <span>
       <Image src="/logo1.png" alt="logo" 
       width={90} height={90} 
       />
-      </span> 
+      </span>
+      <div className={styles.divChange}>
       <ThemeToggle />
+      </div>
     </div>
     
     <div className={styles.menu}>
