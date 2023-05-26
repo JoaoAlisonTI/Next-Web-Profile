@@ -6,11 +6,13 @@ import styles from '@/components/CarouselCertifications/CarouselCertifications.m
 export default function CarouselCertifications() {
   return (
     <>
+    <div className={styles.container}>
     <Carousel>
-      <div className={styles.container}>
+      <div>
         <Image src="/certificado-angular.png" alt="Imagem 1" height={128} />
       </div>
     </Carousel>
+    </div>
     </>
   )
 }
