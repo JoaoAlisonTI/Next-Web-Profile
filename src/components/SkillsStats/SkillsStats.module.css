@@ -12,9 +12,6 @@
   background-color: #2b3c6a;
 }
 .content > span {
-  float: right;
-  position: relative;
-  margin-left: 20px;
   padding: 4px 4px;
   height: 16px;
   width: 18px;

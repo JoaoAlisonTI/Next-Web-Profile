@@ -8,12 +8,13 @@ const CustomSwitch = styled(Switch)(({ theme }) => ({
     width: '24px',
     height: '24px',
     '& svg': {
-      fontSize: '20px',
+      fontSize: '24px',
     },
   },
   '& .MuiSwitch-track': {
     paddingBottom: '4px',
     height: '18px',
+    width: '60px',
     backgroundColor: theme.palette.mode === 'dark' ? '#888' : '#ccc',
   },
 }));
