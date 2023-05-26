@@ -2,7 +2,7 @@ import { useState } from "react";
 import styles from '@/components/Header/Header.module.css'
 import { SlMenu } from 'react-icons/sl'
 import { MdClose } from 'react-icons/md'
-import { FaRegSun, FaregMoon, FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
+import { FaRegSun, FaRegMoon, FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
 import ThemeToggle from '@/components/ThemeToggle/ThemeToggle'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -34,7 +34,7 @@ export default function Header() {
       </span> 
       <ThemeToggle
         checkedIcon={<FaRegSun />}
-        icon={<FaregMoon />}
+        icon={<FaRegMoon />}
       />
     </div>
     
