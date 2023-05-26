@@ -12,10 +12,9 @@ const ThemeToggle = () => {
 
   return (
     <ThemeProvider theme={isDarkMode ? darkTheme : lightTheme}>
-      <CssBaseline />
-      <FaRegMoon />
-      <Switch checked={isDarkMode} onChange={handleToggleTheme} />
       <FaRegSun />
+      <Switch checked={isDarkMode} onChange={handleToggleTheme} />
+      <FaRegMoon />
     </ThemeProvider>
   );
 };
