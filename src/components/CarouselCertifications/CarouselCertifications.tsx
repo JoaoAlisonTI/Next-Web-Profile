@@ -9,10 +9,10 @@ export default function CarouselCertifications() {
     <div className={styles.carouselContainer}>
     <Carousel>
       <div>
-        <Image src="/certificado-angular.png" alt="Imagem 1" height={128} />
+        <Image src="/certificado-angular.png" alt="Imagem 1" height={130} />
       </div>
       <div>
-        <Image src="/certificado-angular.png" alt="Imagem 1" height={128} />
+        <Image src="/certificado-angular.png" alt="Imagem 1" height={130} />
       </div>
     </Carousel>
     </div>
