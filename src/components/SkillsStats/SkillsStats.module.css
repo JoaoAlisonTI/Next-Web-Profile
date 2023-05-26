@@ -7,15 +7,18 @@
   margin-bottom: 16px;
 }
 .skillPer {
+  display: flex;
+  border-radius: 50px;
   height: 20px;
   background-color: #2b3c6a;
   font-weight: bold;
 }
 .skillMain > span {
-  margin-left: 16px;
+  margin-left: 20px;
   padding: 4px 4px;
   border-radius: 10px;
   background-color: #2b3c6a;
+  color: white;
   text-align: center;
   font-size: 12px;
 }

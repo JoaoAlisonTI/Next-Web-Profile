@@ -8,13 +8,15 @@
 .myFooter > p {
   padding: 5px;
 }
-.linkGithub > a {
-  text-decoration: none;
+.linkGithub > span {
+  padding: 0px 4px 0px 4px;
+  background-color: #202A45;
+  color: white;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s;
 }
-.linkGithub > a:hover {
+.linkGithub > span:hover {
   transition: all 0.3s ease-in-out;
   transition-delay: 0.1s;
   transform: scale(1.1);
