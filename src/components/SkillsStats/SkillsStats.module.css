@@ -6,30 +6,19 @@
 .skillMain > h3 {
   margin-bottom: 16px;
 }
-.skillBar {
-  height: 16px;
-  background: #6f6f6f;
-  border-radius: 3px;
-}
 .skillPer {
-  height: 16px;
-  background: #2b3c6a;
-  animation: fillBars 2.5 1;
-  color: black;
+  height: 20px;
+  background-color: #2b3c6a;
+  font-weight: bold;
 }
-.skillPer::before {
-  content: attr(data-per);
-  padding: 4px 6px;
-  background: #cfcdcd;
+.skillMain > span {
+  margin-left: 16px;
+  padding: 4px 4px;
+  border-radius: 10px;
+  background-color: #2b3c6a;
+  text-align: center;
   font-size: 12px;
 }
-.skillPer::after {
-  content: "";
-  width: 10px;
-  height: 10px;
-  background: #cfcdcd;
-}
-
 /*@keyframes fillBars {
   from {
     width: 0;

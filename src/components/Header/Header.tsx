@@ -28,7 +28,7 @@ export default function Header() {
       <SlMenu />
       </button>
       <span className={styles.logo}>
-      <Image src="/logo2.png" alt="logo" 
+      <Image src="/logo1.png" alt="logo" 
       width={90} height={90} 
       />
       </span> 
