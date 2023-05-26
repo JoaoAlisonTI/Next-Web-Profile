@@ -6,15 +6,21 @@
 .skillMain > h3 {
   margin-bottom: 16px;
 }
+.content {
+  display: flex;
+}
 .skillPer {
   border-radius: 50px;
   height: 20px;
+  width: auto;
   background-color: #2b3c6a;
 }
 .content > span {
   display: flex;
   margin-left: 20px;
   padding: 4px 4px;
+  height: 16px;
+  width: 18px;
   border-radius: 10px;
   background-color: #2b3c6a;
   font-weight: bold;
