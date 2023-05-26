@@ -13,7 +13,7 @@ const CustomSwitch = styled(Switch)(({ theme }) => ({
   },
   '& .MuiSwitch-track': {
     marginRight: '20px',
-    paddingBottom: '4px'
+    paddingBottom: '4px',
     backgroundColor: theme.palette.mode === 'dark' ? '#888' : '#ccc',
   },
 }));
