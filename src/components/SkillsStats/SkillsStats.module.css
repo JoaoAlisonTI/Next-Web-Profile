@@ -8,11 +8,11 @@
 }
 .content {
   display: flex;
+  flex-wrap: wrap;
 }
 .skillPer {
   border-radius: 50px;
   height: 20px;
-  width: auto;
   background-color: #2b3c6a;
 }
 .content > span {

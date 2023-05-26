@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { ThemeProvider, CssBaseline, Switch, styled } from '@mui/material';
-import { FaRegSun, FaRegMoon } from 'react-icons/fa';
+import { BsMoonStarsFill, BsSunFill } from 'react-icons/bs'
 import { darkTheme, lightTheme } from '../../theme/theme';
 
 const CustomSwitch = styled(Switch)(({ theme }) => ({
@@ -29,8 +29,8 @@ const ThemeToggle = () => {
       <CustomSwitch
         checked={isDarkMode}
         onChange={handleToggleTheme}
-        icon={<FaRegMoon />}
-        checkedIcon={<FaRegSun />}
+        icon={<BsSunFill />}
+        checkedIcon={<BsMoonStarsFill />}
       />
     </ThemeProvider>
   );
