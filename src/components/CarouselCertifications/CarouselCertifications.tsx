@@ -6,7 +6,8 @@ import styles from '@/components/CarouselCertifications/CarouselCertifications.m
 export default function CarouselCertifications() {
   return (
     <>
-    <Carousel containerClass={styles.carouselContainer}>
+    <div className={styles.carouselContainer}>
+    <Carousel>
       <div>
         <Image src="/certificado-angular.png" alt="Imagem 1" height={128} />
       </div>
@@ -14,6 +15,7 @@ export default function CarouselCertifications() {
         <Image src="/certificado-angular.png" alt="Imagem 1" height={128} />
       </div>
     </Carousel>
+    </div>
     </>
   )
 }
