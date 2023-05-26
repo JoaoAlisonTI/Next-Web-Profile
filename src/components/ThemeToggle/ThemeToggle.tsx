@@ -5,10 +5,11 @@ import { darkTheme, lightTheme } from '../../theme/theme';
 
 const CustomSwitch = styled(Switch)(({ theme }) => ({
   '& .MuiSwitch-thumb': {
+    paddingBottom: '4px',
     width: '24px',
     height: '24px',
     '& svg': {
-      fontSize: '18px',
+      fontSize: '20px',
     },
   },
   '& .MuiSwitch-track': {

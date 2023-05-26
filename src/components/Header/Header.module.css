@@ -29,6 +29,9 @@
 .btnMenu:hover {
   background-color: #202A45;
 }
+.myHeader > ThemeToggle {
+  margin-right: 20px;
+}
 .menuContent {
   top: 0;
   position: fixed;
