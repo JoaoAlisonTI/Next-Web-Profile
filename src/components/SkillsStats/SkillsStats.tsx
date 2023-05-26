@@ -13,9 +13,12 @@ export default function SkillsStats(props: SkillsStatsProps) {
     <div className={styles.skillMain}>
     
     <h3 className={styles.skillName}>{props.skill}</h3>
+    <div className={styles.content}>
       <div className={styles.skillPer} style={{ maxWidth: props.maxWidthPer }}>
       </div>
       <span>{props.stats}</span>
+     </div>
+      
     </div>
     </>
     )

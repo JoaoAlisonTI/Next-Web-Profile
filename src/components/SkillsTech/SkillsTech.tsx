@@ -12,7 +12,7 @@ export default function SkillsTech() {
           <Image src="/icons/css3.svg" alt="Css3 Icon" height={50} width={50} />
         </div>
         <div className={styles.tech}>
-          <Image src="/php/Icons.svg" alt="PHP Icon" height={50} width={50} />
+          <Image src="/icons/php.svg" alt="PHP Icon" height={50} width={50} />
         </div>
         <div className={styles.tech}>
           <Image src="/icons/bootsrap5.svg" alt="Bootstrap5 Icon" height={50} width={50} />
