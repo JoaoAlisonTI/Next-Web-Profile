@@ -13,6 +13,9 @@
   width: 100%;
   font-size: 24px;
 }
+.myHeader > span {
+  margin: 0 auto;
+}
 .btnMenu {
   display: flex;
   justify-content: center;
