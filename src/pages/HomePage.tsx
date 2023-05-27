@@ -12,10 +12,10 @@ export default function HomePage() {
         <section className={styles.sectionAbout}>
          <div className={styles.divImage}>
                 <Image 
-                src="/photoperfil.png" 
+                src="/photo2.svg" 
                 alt="Minha imagem de perfil"
-                height={200}
-                width={200} />
+                height={250}
+                width={250} />
               </div>
           <div className={styles.aboutMe}>
                 <h1>Desenvolvedor Web</h1>

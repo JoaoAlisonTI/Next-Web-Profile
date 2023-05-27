@@ -1,5 +1,8 @@
 .carouselContainer {
   z-index: 0;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
   background-color: #202A45;
   border-radius: 10px;
   width: auto;
