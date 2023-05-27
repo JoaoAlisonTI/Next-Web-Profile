@@ -17,7 +17,9 @@ export default function CardProject(props: CardProjectProps) {
   return (
     <>
     <div className={styles.project}>
+    <div className={styles.divImage}>
     <Image src={props.imgSrc} width={265} height={180} alt="Imagem do projeto" />
+    </div>
     <div className={styles.info}>
     <h4>{props.projectName}</h4>
     <p>{props.projectDescription}</p>

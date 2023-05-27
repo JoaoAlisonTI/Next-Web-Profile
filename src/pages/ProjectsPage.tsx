@@ -11,7 +11,7 @@ export default function ProjectsPage() {
       <h1>Meus projetos</h1>
       <div>
         <CardProject 
-          imgSrc="/icons/reactjs.svg"
+          imgSrc="/projetos/projeto-pokedex.png"
           projectName="Projeto Exemplo"
           projectDescription="Esse é apenas um card do projeto para demonstração, para saber como será a versão final."
           linkOnline="nada aqui"
