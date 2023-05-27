@@ -32,10 +32,11 @@
 }
 .btnCv {
   padding: 14px 15px;
-  background-color: #202A45;
+  background: none;
+  border: none;
   text-decoration: none;
+  background-color: #202A45;
   color: #f8f8f2;
-  width: 60px;
   border-radius: 10px;
   font-weight: 500;
   transition: all 0.4s;

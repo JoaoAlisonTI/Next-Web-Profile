@@ -42,9 +42,9 @@
   background-color: #293963;
   transition: all 0.4s ease-in-out;
   transition-delay: 0.1s;
-  transform: scale(1.1);
 }
 .linkGit {
+  margin: 0 auto;
   color: black;
   cursor: pointer;
   font-size: 25px;
