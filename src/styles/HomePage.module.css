@@ -5,6 +5,7 @@
   text-align: center;
 }
 .divImage {
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +13,7 @@
   border: 3px solid #2b3c6a;
   background-color: #f3f1f1;
   height: 280px;
-  width: 250px;
+  width: 280px;
 }
 .aboutMe {
   margin-top: 20px;
