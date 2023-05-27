@@ -9,6 +9,7 @@ export default function ProjectsPage() {
       <Header />
       <section className={styles.sectionProjects}>
       <h1>Meus projetos</h1>
+      <div>
         <CardProject 
           imgSrc="/icons/reactjs.svg"
           projectName="Projeto Exemplo"
@@ -23,6 +24,7 @@ export default function ProjectsPage() {
           linkOnline="nada aqui"
           linkGithub="nada aqui"
         />
+        </div>
       </section>  
       <Footer />
     </>

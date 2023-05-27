@@ -48,7 +48,7 @@ export default function Header() {
           <div className={styles.navLinks}>
               <Link href="/">Home</Link>
               <Link href="ProfilePage">Sobre mim</Link>
-              <Link href="#">Projetos</Link>
+              <Link href="ProjectsPage">Projetos</Link>
           </div>
           <div className={styles.socialMedia}>
             <a href="https://github.com/JoaoAlisonTI" target="_blank" className={styles.btnMedia}><FaGithub />

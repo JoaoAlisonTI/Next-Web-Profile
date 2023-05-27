@@ -1,9 +1,14 @@
 .sectionProjects {
   margin: 120px 25px 25px 25px;
 }
+.sectionProjects > {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .sectionProjects > h1 {
   font-size: 32px;
   text-align: center;
   margin-top: 8px;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
