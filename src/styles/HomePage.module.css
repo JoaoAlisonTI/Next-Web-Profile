@@ -1,5 +1,5 @@
 .sectionAbout {
-  margin: 128px 25px 25px 25px;
+  margin: 128px 24px 25px 24px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -11,8 +11,8 @@
   border-radius: 50%;
   border: 3px solid #2b3c6a;
   background-color: #f3f1f1;
-  height: 300px;
-  width: 300px;
+  height: 280px;
+  width: 250px;
 }
 .aboutMe {
   margin-top: 20px;
