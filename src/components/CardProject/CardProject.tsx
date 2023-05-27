@@ -21,10 +21,10 @@ export default function CardProject(props: CardProjectProps) {
     <div className={styles.info}>
     <h4>{props.projectName}</h4>
     <p>{props.projectDescription}</p>
-    <Link className={styles.linkOn} href={linkOnline} target="_blank">
+    <Link className={styles.linkOn} href={props.linkOnline} target="_blank">
     <BsCloudArrowUp />
     </Link>
-    <Link className={styles.linkGit} href={linkGithub} target="_blank">
+    <Link className={styles.linkGit} href={props.linkGithub} target="_blank">
     <BsGithub />
     </Link>
     
