@@ -12,13 +12,13 @@ export default function ProfilePage() {
       <Header />
       <section className={styles.sectionProfile}>
               <div className={styles.myProfile}>
-                <h2>Profile</h2>
+                <h1>Profile</h1>
                 <p>Bem vindo(a)👋🏽, me chamo João Alison e sou amante da Tecnologia e da Programação. Sou Técnico em Informática pela EEEP Gerardo José Dias de Loiola. Foi durante esses 3 anos onde aprendi e desenvolvi minhas Softs e Hards skills. Tive a grande oportunidade de aprender os conceitos iniciais e fundamentais de Gestão, Redes, Hardware, Software e Desenvolvimento de Sistemas com excelentes profissionais da área. Apesar de ter concluído o ensino técnico, a sede por desenvolver e programar sites/sistemas webs não acabou. Por isso estou sempre interessado em melhorar, buscar novos conhecimentos, métricas, ferramentas, experiências e conquistar meus objetivos.</p>
               </div>
               </section>
               
               <section className={styles.sectionExperience}>
-              <h2>Experience</h2>
+              <h1>Experience</h1>
               <span className={styles.circle}></span>
               <div className={styles.myExperience}>
                 <h4>Técnico em Informática - Suporte a Sistemas, 08/2022 - 12/2022</h4>
@@ -31,7 +31,7 @@ Salas Virtuais. Criação e Implementação de Banco de Questões como também a
               </section>
               
               <section className={styles.sectionEducation}>
-              <h2>Education</h2>
+              <h1>Education</h1>
               <span className={styles.circle}></span>
               <div className={styles.myEducation}>
                <h4>Técnico em Informática</h4>
@@ -41,14 +41,14 @@ Salas Virtuais. Criação e Implementação de Banco de Questões como também a
               </section>
               
               <section className={styles.sectionCertifications}>
-              <h2>Certifications</h2>
+              <h1>Certifications</h1>
               <div className={styles.myCertifications}>
                 <CarouselCertifications />
               </div>
               </section>
               
               <section className={styles.sectionSkills}>
-              <h2>Skills</h2>
+              <h1>Skills</h1>
               <div className={styles.mySkills}>
               
                 <div className={styles.skillsStats}>

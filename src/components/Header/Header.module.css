@@ -49,10 +49,10 @@
   transition: top 0.4s;
 }
 .divButton {
-  padding-top: 20px;
+  padding-top: 36px;
 }
 .divButton > button {
-  font-size: 16px;
+  font-size: 20px;
 }
 .navLinks {
   margin-top: 90px;

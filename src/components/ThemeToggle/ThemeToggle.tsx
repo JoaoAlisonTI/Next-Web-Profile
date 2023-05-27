@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect ,useState } from 'react';
 import { ThemeProvider, CssBaseline, Switch, styled } from '@mui/material';
 import { BsMoonStarsFill, BsSunFill } from 'react-icons/bs'
 import { darkTheme, lightTheme } from '../../theme/theme';
@@ -21,9 +21,18 @@ const CustomSwitch = styled(Switch)(({ theme }) => ({
 
 const ThemeToggle = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
-
+  
+  useEffect(() => {
+    const storedMode = localStorage.getItem('themeMode');
+    if (storedMode) {
+      setIsDarkMode(storedMode === 'dark');
+    }
+  }, []);
+  
   const handleToggleTheme = () => {
-    setIsDarkMode((prevMode) => !prevMode);
+    const newMode = !isDarkMode ? 'dark' : 'light';
+    setIsDarkMode(!isDarkMode);
+    localStorage.setItem('themeMode', newMode);
   };
 
   return (

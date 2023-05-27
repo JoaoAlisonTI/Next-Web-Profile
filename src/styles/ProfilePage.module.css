@@ -6,16 +6,15 @@
   text-align: justify;
   line-height: 25px;
 }
-.myProfile > h2 {
-  font-size: 28px;
+.myProfile > h1 {
+  text-align: center;
   margin-top: 8px;
   margin-bottom: 15px;
 }
 .sectionExperience {
-  margin: 60px 25px 25px 25px;
+  margin: 80px 25px 25px 25px;
 }
-.sectionExperience > h2 {
-  font-size: 28px;
+.sectionExperience > h1 {
   margin-top: 8px;
   margin-bottom: 15px;
 }
@@ -43,10 +42,10 @@
   line-height: 22px;
 }
 .sectionEducation {
-  margin: 60px 25px 25px 25px;
+  margin: 80px 25px 25px 25px;
 }
-.sectionEducation > h2 {
-  font-size: 28px;
+.sectionEducation > h1 {
+  text-align: center;
   margin-top: 8px;
   margin-bottom: 15px;
 }
@@ -62,10 +61,10 @@
   font-weight: 300;
 }
 .sectionCertifications {
-  margin: 60px 25px 25px 25px;
+  margin: 72px 25px 25px 25px;
 }
-.sectionCertifications > h2 {
-  font-size: 28px;
+.sectionCertifications > h1 {
+  text-align: center;
   margin-top: 8px;
   margin-bottom: 15px;
 }
@@ -73,10 +72,10 @@
   margin: 0px 10px 0px 10px;
 }
 .sectionSkills {
-  margin: 60px 25px 25px 25px;
+  margin: 72px 25px 25px 25px;
 }
-.sectionSkills > h2 {
-  font-size: 28px;
+.sectionSkills > h1 {
+  text-align: center;
   margin-top: 8px;
   margin-bottom: 15px;
 }
