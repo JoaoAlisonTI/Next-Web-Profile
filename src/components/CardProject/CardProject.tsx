@@ -21,12 +21,17 @@ export default function CardProject(props: CardProjectProps) {
     <div className={styles.info}>
     <h4>{props.projectName}</h4>
     <p>{props.projectDescription}</p>
-    <Link className={styles.linkOn} href={props.linkOnline} target="_blank">
-    <BsCloudArrowUp />
+    
+    <div className={styles.contentLinks}>
+    <Link href={props.linkOnline} target="_blank">
+    <button className={styles.btnOnline}>
+      acesse online
+    </button>
     </Link>
     <Link className={styles.linkGit} href={props.linkGithub} target="_blank">
     <BsGithub />
     </Link>
+    </div>
     
     </div>
     </div>
