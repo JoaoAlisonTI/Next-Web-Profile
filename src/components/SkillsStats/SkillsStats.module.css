@@ -1,6 +1,5 @@
 .skillMain {
   width: 100%;
-  max-width: 600px;
   margin-top: 20px;
 }
 .skillMain > h3 {
@@ -8,11 +7,10 @@
 }
 .skillPer {
   border-radius: 50px;
-  height: 20px;
   background-color: #2b3c6a;
 }
 .skillPer > p {
-  padding: 4px;
+  padding: 8px;
   font-weight: bold;
   color: white;
   text-align: right;
