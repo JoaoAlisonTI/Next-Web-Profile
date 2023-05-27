@@ -5,8 +5,11 @@ import Image from 'next/image'
 import styles from '@/components/CardProject/CardProject.module.css'
 
 interface CardProjectProps {
+  imgSrc: string;
   projectName: string;
   projectDescription: string;
+  linkOnline: string;
+  linkGithub: string;
 }
 
 export default function CardProject(props: CardProjectProps) {
@@ -14,7 +17,7 @@ export default function CardProject(props: CardProjectProps) {
   return (
     <>
     <div className={styles.project}>
-    <Image src="/https://github.com/JoaoAlisonTI.png" alt="Imagem do projeto" width={265} height={180} />
+    <Image src="{props.imgSrc}" width={265} height={180} alt="Imagem do projeto" />
     <div className={styles.info}>
     <h4>{props.projectName}</h4>
     <p>{props.projectDescription}</p>
