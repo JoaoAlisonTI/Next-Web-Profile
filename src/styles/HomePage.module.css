@@ -8,9 +8,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
+  background-color: #f3f1f1;
+  width: auto;
 }
 .aboutMe {
-  margin-top: 24px;
+  margin-top: 20px;
   padding-bottom: 50px;
 }
 .aboutMe > p {

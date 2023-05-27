@@ -14,13 +14,13 @@ export default function HomePage() {
                 <Image 
                 src="/photo2.svg" 
                 alt="Minha imagem de perfil"
-                height={250}
-                width={250} />
+                height={240}
+                width={240} />
               </div>
           <div className={styles.aboutMe}>
-                <h1>Desenvolvedor Web</h1>
+                <h1>Desenvolvedor Web Full Stack</h1>
                 <h3></h3>
-                <p>Como um desenvolvedor full-stack, dedico-me a transformar ideias em aplicações web inovadoras, buscando sempre as melhores ferramentas e métricas de desenvolvimento. Explore meu portifólio, monstrando minha experiência em desenvolvimento web.</p>
+                <p>Como um desenvolvedor full stack, dedico-me a transformar ideias em aplicações web inovadoras, buscando sempre as melhores ferramentas e métricas de desenvolvimento. Explore meu portifólio, monstrando minha experiência em desenvolvimento web.</p>
               </div>
               <div>
               <Link className={styles.btnCv}
