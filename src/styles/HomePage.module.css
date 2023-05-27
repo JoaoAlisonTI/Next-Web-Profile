@@ -8,9 +8,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 50%;
+  border: 3px solid #2b3c6a;
   background-color: #f3f1f1;
-  width: auto;
+  width: 300px;
 }
 .aboutMe {
   margin-top: 20px;
