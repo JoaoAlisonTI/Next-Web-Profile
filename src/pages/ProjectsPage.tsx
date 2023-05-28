@@ -12,7 +12,7 @@ export default function ProjectsPage() {
       <div className={styles.content}>
         <CardProject 
           imgSrc="/projetos/projeto-pokedex.png"
-          projectName="Projeto Exemplo"
+          projectName="Aplicação Web Pokédex"
           projectDescription="Esse é apenas um card do projeto para demonstração, para saber como será a versão final."
           linkOnline="nada aqui"
           linkGithub="nada aqui"
