@@ -9,7 +9,7 @@ export default function ProjectsPage() {
       <Header />
       <section className={styles.sectionProjects}>
       <h1>Meus projetos</h1>
-      <div>
+      <div className={styles.content}>
         <CardProject 
           imgSrc="/projetos/projeto-pokedex.png"
           projectName="Projeto Exemplo"

@@ -13,9 +13,7 @@
 }
 .divImage {
   border-radius: 10px;
-}
-.project > Image {
-  border-radius: 10px;
+  border: 1px solid #202A45;
 }
 .info > h4 {
   color: #192030;
@@ -48,7 +46,7 @@
   transition-delay: 0.1s;
 }
 .linkGit {
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   color: black;
   cursor: pointer;
   font-size: 25px;

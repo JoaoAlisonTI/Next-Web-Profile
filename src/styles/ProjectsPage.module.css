@@ -1,7 +1,7 @@
 .sectionProjects {
   margin: 120px 25px 25px 25px;
 }
-.sectionProjects > {
+.content > {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
