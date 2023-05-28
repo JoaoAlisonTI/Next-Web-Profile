@@ -24,8 +24,10 @@ export default function CardProject(props: CardProjectProps) {
     <p>{props.projectDescription}</p>
     
     <div className={styles.contentLinks}>
-    <Link className={styles.btnOnline} href={props.linkOnline} target="_blank">
-      acesse online
+    <Link href={props.linkOnline} target="_blank">
+    <button className={styles.btnOnline}>
+      Acesse online
+    </button>
     </Link>
     <Link className={styles.linkGit} href={props.linkGithub} target="_blank">
     <BsGithub />

@@ -30,6 +30,8 @@
 }
 .btnOnline {
   padding: 14px 15px;
+  background: none;
+  border: none;
   background-color: #202A45;
   color: #f8f8f2;
   border-radius: 10px;
