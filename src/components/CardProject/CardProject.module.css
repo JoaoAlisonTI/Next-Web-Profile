@@ -30,13 +30,11 @@
 }
 .btnOnline {
   padding: 14px 15px;
-  background: none;
-  border: none;
-  text-decoration: none;
   background-color: #202A45;
   color: #f8f8f2;
   border-radius: 10px;
   font-weight: 500;
+  cursor: pointer;
   transition: all 0.4s;
 }
 .btnOnline:hover {
@@ -45,7 +43,6 @@
   transition-delay: 0.1s;
 }
 .linkGit {
-  /*margin: 0 auto;*/
   color: black;
   cursor: pointer;
   font-size: 25px;

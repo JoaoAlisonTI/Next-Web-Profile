@@ -2,8 +2,11 @@
   z-index: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin: 0 auto;
   border-radius: 10px;
   background-color: #202A45;
-  height: 165px;
+  height: 142px;
   width: 300px;
 }

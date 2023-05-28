@@ -32,9 +32,6 @@
 }
 .btnCv {
   padding: 14px 15px;
-  background: none;
-  border: none;
-  text-decoration: none;
   background-color: #202A45;
   color: #f8f8f2;
   font-size: 16px;
@@ -46,7 +43,6 @@
   background-color: #293963;
   transition: all 0.4s ease-in-out;
   transition-delay: 0.1s;
-  transform: scale(1.1);
 }
 
 .sectionProjects {

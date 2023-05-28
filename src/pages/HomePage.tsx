@@ -23,10 +23,10 @@ export default function HomePage() {
                 <p>Como um desenvolvedor full stack, dedico-me a transformar ideias em aplicações web inovadoras, buscando sempre as melhores ferramentas e métricas de desenvolvimento. Explore meu portifólio, monstrando minha experiência em desenvolvimento web.</p>
               </div>
               <div>
-              <Link href="ProfilePage">
-              <button className={styles.btnCv}>
+              <Link 
+              className={styles.btnCv}
+              href="ProfilePage">
               Leia mais
-              </button>
               </Link>
               </div>
         </section>
