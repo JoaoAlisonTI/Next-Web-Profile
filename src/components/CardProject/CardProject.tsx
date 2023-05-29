@@ -13,6 +13,7 @@ interface CardProjectProps {
 }
 
 export default function CardProject(props: CardProjectProps) {
+  const linkGH = linkGithub!;
   
   return (
     <>
@@ -29,7 +30,7 @@ export default function CardProject(props: CardProjectProps) {
       Acesse online
     </button>
     </Link>
-    <Link className={styles.linkGit} href={props.linkGithub} target="_blank">
+    <Link className={styles.linkGit} href={linkGH} target="_blank">
     <BsGithub />
     </Link>
     </div>
