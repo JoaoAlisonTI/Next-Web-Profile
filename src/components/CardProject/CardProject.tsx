@@ -13,8 +13,8 @@ interface CardProjectProps {
 }
 
 export default function CardProject(props: CardProjectProps) {
-  const linkGH = props.linkGithub!;
-  
+  const linkGH = props.linkGithub || '';
+
   return (
     <>
       <div className={styles.project}>
@@ -31,7 +31,7 @@ export default function CardProject(props: CardProjectProps) {
               </button>
             </Link>
             {props.linkGithub && (
-              <Link className={styles.linkGit} href={props.linkGH} target="_blank">
+              <Link className={styles.linkGit} href={props.linkGithub} target="_blank">
                 <BsGithub />
               </Link>
             )}

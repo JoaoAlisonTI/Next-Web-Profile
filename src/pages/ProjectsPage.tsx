@@ -21,7 +21,7 @@ export default function ProjectsPage() {
           projectName="Aplicação Web Pokédex"
           projectDescription="Pokédex é uma enciclopédia virtual que detém todas as espécies de Pokémon, ou seja, desde a 1° geração até a última geração. Techs: HTML/CSS, JavaScript e API. Para mais detalhes acesse o repositório no botão direito"
           linkOnline="https://joaoalisonti.github.io/Pokedex-Js/"
-          linkGH="https://github.com/JoaoAlisonTI/Pokedex-Js"
+          linkGithub="https://github.com/JoaoAlisonTI/Pokedex-Js"
         />
         </div>
       </section>  
