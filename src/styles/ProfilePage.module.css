@@ -22,7 +22,7 @@
   margin-bottom: 16px;
 }
 .sectionExperience div:nth-child(3) {
-  border-left: 3px solid #2b3c6a;
+  border-left: 3px solid #000000;
 }
 .myExperience {
   margin-left: 6px;
@@ -33,7 +33,7 @@
   border-radius: 100%;
   width: 15px;
   height: 15px;
-  background-color: #2b3c6a;
+  background-color: #000000;
 }
 .myExperience > h5 {
   margin: 10px 0px 10px 0px;
@@ -54,7 +54,7 @@
   margin-bottom: 16px;
 }
 .sectionEducation div:nth-child(3) {
-  border-left: 3px solid #2b3c6a;
+  border-left: 3px solid #000000;
 }
 .myEducation {
   margin-left: 6px;
