@@ -31,7 +31,7 @@ export default function CardProject(props: CardProjectProps) {
               </button>
             </Link>
             {props.linkGithub && (
-              <Link className={styles.linkGit} href={linkGH} target="_blank">
+              <Link className={styles.linkGit} href={props.linkGH} target="_blank">
                 <BsGithub />
               </Link>
             )}
