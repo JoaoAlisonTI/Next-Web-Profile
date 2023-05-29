@@ -1,6 +1,7 @@
 .myFooter {
   margin-top: 85px;
   padding-bottom: 12px;
+  border-top: 2px solid #333333;
   text-align: center;
   font-size: 13px;
   width: 100%;
@@ -11,8 +12,8 @@
 .linkGithub > span {
   padding: 4px 6px;
   border-radius: 10px;
-  background-color: #202A45;
-  color: white;
+  background-color: #000000;
+  color: #f8f8f8;
   cursor: pointer;
   transition: all 0.3s;
 }

@@ -32,15 +32,16 @@
 }
 .btnCv {
   padding: 14px 15px;
-  background-color: #202A45;
-  color: #f8f8f2;
+  background-color: #000000;
+  color: #f8f8f8;
   font-size: 16px;
   border-radius: 10px;
   font-weight: 500;
   transition: all 0.4s;
 }
 .btnCv:hover {
-  background-color: #293963;
+  background-color: #f8f8f8;
+  color: #000000;
   transition: all 0.4s ease-in-out;
   transition-delay: 0.1s;
 }
