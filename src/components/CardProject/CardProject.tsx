@@ -9,7 +9,7 @@ interface CardProjectProps {
   projectName: string;
   projectDescription: string;
   linkOnline: string;
-  linkGithub: string;
+  linkGithub?: string;
 }
 
 export default function CardProject(props: CardProjectProps) {
