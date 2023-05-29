@@ -5,7 +5,8 @@
   align-items: center;
   padding: 8px;
   margin: 0 auto;
+  border: 2px solid #333333;
   border-radius: 10px;
-  background-color: #202A45;
+  background-color: #000000;
   width: 316px;
 }
