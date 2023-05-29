@@ -10,6 +10,7 @@
 }
 .imgProject {
   border-radius: 10px;
+  width: auto;
 }
 .info > h4 {
   color: #192030;
