@@ -14,6 +14,8 @@
 }
 .sectionExperience {
   margin: 92px 25px 25px 25px;
+  background-color: #efebeb;
+  border-radius: 10px;
 }
 .sectionExperience > h1 {
   text-align: center;
