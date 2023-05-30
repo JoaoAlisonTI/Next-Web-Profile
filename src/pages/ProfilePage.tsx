@@ -13,7 +13,7 @@ export default function ProfilePage() {
       <section className={styles.sectionProfile}>
               <div className={styles.myProfile}>
                 <h1>Profile</h1>
-                <p>Bem vindo(a)👋🏽, me chamo João Alison e sou amante da Tecnologia e da Programação. Sou Técnico em Informática pela EEEP Gerardo José Dias de Loiola. Foi durante esses 3 anos onde aprendi e desenvolvi minhas Softs e Hards skills. Tive a grande oportunidade de aprender os conceitos iniciais e fundamentais de Gestão, Redes, Hardware, Software e Desenvolvimento de Sistemas com excelentes profissionais da área. Apesar de ter concluído o ensino técnico, a sede por desenvolver e programar sites/sistemas webs não acabou. Por isso estou sempre interessado em melhorar, buscar novos conhecimentos, métricas, ferramentas, experiências e conquistar meus objetivos.</p>
+                <p>Bem vindo(a)👋🏽, me chamo João Alison e sou amante da Tecnologia e da Programação. Sou Técnico em Informática pela EEEP Gerardo José Dias de Loiola. Foi durante esses 3 anos onde aprendi e desenvolvi minhas Softs e Hards skills. Tive a grande oportunidade de aprender os conceitos iniciais e fundamentais de Gestão, Redes, Hardware, Software e Desenvolvimento de Sistemas com excelentes profissionais da área. Apesar de ter concluído o ensino médio técnico, a sede por desenvolver e programar sites/sistemas webs não acabou. O aprendizado nunca acaba, por isso estou sempre interessado em melhorar, buscar novos conhecimentos, métricas, ferramentas, experiências e conquistar meus objetivos.</p>
               </div>
               </section>
               
@@ -21,7 +21,7 @@ export default function ProfilePage() {
               <h1>Experience</h1>
               <span className={styles.circle}></span>
               <div className={styles.myExperience}>
-                <h4>Técnico em Informática - Suporte a Sistemas, 08/2022 - 12/2022</h4>
+                <h4>Técnico em Informática - Suporte a Sistemas (08/2022 - 12/2022)</h4>
                 <h5>UNINTA | CENTRO UNIVERSITÁRIO INTA, Sobral, Ceará</h5>
                 <p>Desempenhando manutenção e ajustes no funcionamento e uso das soluções implementadas no sistema
 Moodle - Ambiente Virtual de Aprendizagem (AVA). Fazendo a Análise, Implementação e Reestruturação de
@@ -34,9 +34,11 @@ Salas Virtuais. Criação e Implementação de Banco de Questões como também a
               <h1>Education</h1>
               <span className={styles.circle}></span>
               <div className={styles.myEducation}>
-               <h4>Técnico de nível Médio em Informática</h4>
-               <h5>(2020 - 2022) Escola Estadual de Ensino Profissional Gerardo José Dias de Loiola.
+               <h4>Técnico de nível Médio em Informática (2020 - 2022)</h4>
+               <h5 className={styles.info}>Escola Estadual de Ensino Profissional Gerardo José Dias de Loiola.
+               </h5>
                <br />
+               <h5>
                Disciplinas da Formação Profissional:
                <br/>
                <ul>

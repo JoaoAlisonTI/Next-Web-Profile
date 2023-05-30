@@ -60,6 +60,9 @@
   margin-left: 6px;
   padding: 0px 10px 0px 20px;
 }
+.info {
+  text-align: justify;
+}
 .myEducation > h5 {
   margin: 7px 0px 0px 0px;
   font-weight: 400;
