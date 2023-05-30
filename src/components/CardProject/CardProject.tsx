@@ -34,8 +34,10 @@ export default function CardProject(props: CardProjectProps) {
             </Link>
             )}
             {props.linkGithub && (
-              <Link className={styles.linkGit} href={props.linkGithub} target="_blank">
+              <Link href={props.linkGithub} target="_blank">
+                <button className={styles.btnGit} >
                 <BsGithub />
+                </button>
               </Link>
             )}
           </div>

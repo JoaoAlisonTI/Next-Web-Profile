@@ -34,8 +34,31 @@ Salas Virtuais. Criação e Implementação de Banco de Questões como também a
               <h1>Education</h1>
               <span className={styles.circle}></span>
               <div className={styles.myEducation}>
-               <h4>Técnico em Informática</h4>
-               <h5>2020 - 2022 Escola Estadual de Ensino Profissional Gerardo José Dias de Loiola.</h5>
+               <h4>Técnico de nível Médio em Informática</h4>
+               <h5>(2020 - 2022) Escola Estadual de Ensino Profissional Gerardo José Dias de Loiola.
+               <br />
+               Disciplinas da Formação Profissional:
+               <br/>
+               <ul>
+                <li>Arquitetura e Manutenção de Computadores</li>
+                <li>Gestão do Tempo</li>
+                <li>HTML/CSS</li>
+                <li>Lógica de Programação</li>
+                <li>Design</li>
+                <li>Gerenciador de Conteúdo/Banco de Dados</li>
+                <li>Noções de Robótica</li>
+                <li>P.O.O/Java</li>
+                <li>Programação Web II(PHP/MySql)</li>
+                <li>Programação Web (JavaScript/PHP/MySql)</li>
+                <li>Redes de Computadores</li>
+                <li>Sistemas Operacionais</li>
+                <li>Estágio Curricular</li>
+                <li>Laboratório de Software</li>
+                <li>Laboratório de Web</li>
+                <li>Laboratório de Hardware</li>
+                <li>Profissão e Formação</li>
+               </ul>
+               </h5>
               </div>
               
               </section>
