@@ -8,13 +8,14 @@ interface CardProjectProps {
   imgSrc: string;
   projectName: string;
   projectDescription: string;
-  linkOnline: string;
+  linkOnline?: string;
   linkGithub?: string;
 }
 
 export default function CardProject(props: CardProjectProps) {
   const linkGH = props.linkGithub || '';
-
+  const linkON = props.linkOnline || '';
+  
   return (
     <>
       <div className={styles.project}>
@@ -25,11 +26,13 @@ export default function CardProject(props: CardProjectProps) {
           <p>{props.projectDescription}</p>
           
           <div className={styles.contentLinks}>
+            {props.linkOnline && (
             <Link href={props.linkOnline} target="_blank">
               <button className={styles.btnOnline}>
                 Acesse online
               </button>
             </Link>
+            )}
             {props.linkGithub && (
               <Link className={styles.linkGit} href={props.linkGithub} target="_blank">
                 <BsGithub />
