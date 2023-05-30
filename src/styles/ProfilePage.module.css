@@ -26,7 +26,7 @@
 }
 .myExperience {
   margin-left: 6px;
-  padding: 0px 10px 10px 25px;
+  padding: 0px 10px 0px 25px;
 }
 .circle {
   float: left;
@@ -37,10 +37,10 @@
 }
 .myExperience > h5 {
   margin: 10px 0px 10px 0px;
-  font-weight: 300;
+  font-weight: 400;
 }
 .myExperience > p {
-  font-weight: 400;
+  font-weight: 500;
   text-align: justify;
   line-height: 22px;
 }
@@ -58,11 +58,14 @@
 }
 .myEducation {
   margin-left: 6px;
-  padding: 0px 10px 20px 20px;
+  padding: 0px 10px 0px 20px;
 }
 .myEducation > h5 {
   margin: 7px 0px 0px 0px;
-  font-weight: 300;
+  font-weight: 400;
+}
+.myEducation > h5 > ul {
+  margin-left: 20px;
 }
 .sectionCertifications {
   margin: 72px 0px 25px 0px;
