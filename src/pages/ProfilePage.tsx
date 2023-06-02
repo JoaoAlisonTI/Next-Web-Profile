@@ -25,7 +25,7 @@ export default function ProfilePage() {
                 <h5>UNINTA | CENTRO UNIVERSITÁRIO INTA, Sobral, Ceará</h5>
                 <p>Desempenhando manutenção e ajustes no funcionamento e uso das soluções implementadas no sistema
 Moodle - Ambiente Virtual de Aprendizagem (AVA). Fazendo a Análise, Implementação e Reestruturação de
-Salas Virtuais. Criação e Implementação de Banco de Questões como também a Criação e Cadastro de IDs.</p>
+Salas Virtuais. Criação e Implementação de Banco de Questões como também a Criação e Cadastro de IDs. Promovia o suporte utilizando as próprias ferramentas/opções que o Moodle disponibilizava. Em caso de código via apenas HTML/CSS, um template onde eu modificava o nome/informações da disciplina e mandava o arquivo com as modificações para ser enviado ao servidor.</p>
               </div>
               
               </section>
@@ -35,7 +35,7 @@ Salas Virtuais. Criação e Implementação de Banco de Questões como também a
               <span className={styles.circle}></span>
               <div className={styles.myEducation}>
                <h4>Técnico de nível Médio em Informática (2020 - 2022)</h4>
-               <h5 className={styles.info}>Escola Estadual de Ensino Profissional Gerardo José Dias de Loiola.
+               <h5 className={styles.info}>ESCOLA ESTADUAL DE ENSINO PROFISSIONAL GERARDO JOSÉ DIAS DE LOIOLA,
                <br />
                Disciplinas da Formação Profissional:
                </h5>
@@ -66,9 +66,7 @@ Salas Virtuais. Criação e Implementação de Banco de Questões como também a
               
               <section className={styles.sectionCertifications}>
               <h1>Certifications</h1>
-              <div className={styles.myCertifications}>
                 <CarouselCertifications />
-              </div>
               </section>
               
               <section className={styles.sectionSkills}>
