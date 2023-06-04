@@ -69,7 +69,4 @@
   .project {
     width: 400px;
   }
-  .contentLinks {
-    justify-content: flex-end;
-  }
 }

@@ -89,3 +89,26 @@
   margin-top: 40px;
   margin-bottom: 18px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .sectionProfile {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .sectionExperience {
+    padding-left: 30px;
+    padding-right: 50px;
+  }
+  .sectionEducation {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .sectionCertifications {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .sectionSkills {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
