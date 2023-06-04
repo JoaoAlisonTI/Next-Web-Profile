@@ -67,8 +67,9 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .project {
-    background-color: red;
     width: 400px;
+  }
+  .contentLinks {
     justify-content: flex-end;
   }
 }
