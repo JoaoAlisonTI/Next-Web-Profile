@@ -65,8 +65,11 @@
   border: 2px solid #333333;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .project {
     background-color: red;
+    margin: 0 auto;
+    width: 37.5rem;
+    padding: 1.5rem;
   }
 }
