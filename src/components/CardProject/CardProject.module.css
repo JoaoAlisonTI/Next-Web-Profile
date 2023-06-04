@@ -69,5 +69,6 @@
   .project {
     background-color: red;
     width: 400px;
+    justify-content: flex-end;
   }
 }
