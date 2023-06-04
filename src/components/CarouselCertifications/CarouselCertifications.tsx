@@ -7,7 +7,7 @@ export default function CarouselCertifications() {
   return (
     <>
     <div className={styles.carouselContainer}>
-    <Carousel fade infiniteLoop autoPlay showThumbs={true} showStatus={false} interval={1500} showIndicators={false}>
+    <Carousel fade={true} infiniteLoop={true} autoPlay={true} showThumbs={true} showStatus={false} interval={1500} showIndicators={false}>
       <div>
         <Image src="/certificados/certificado-dsm-min.png" alt="Imagem 1" height={170} />
       </div>
