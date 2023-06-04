@@ -14,20 +14,19 @@
 .imgProject {
   margin: 0 auto;
   border-radius: 10px;
+  width: 100%;
   max-width: 100%;
 }
 .info > h4 {
-  /*color: #f8f8f8;*/
   text-align: center;
   padding-top: 8px;
-  padding-bottom: 5px;
+  padding-bottom: 4px;
   font-size: 20px;
 }
 .info > p {
   text-align: justify;
   font-weight: 400;
-  /*color: #f8f8f8;*/
-  padding-bottom: 15px;
+  padding-bottom: 16px;
 }
 .contentLinks {
   display: flex;
@@ -64,4 +63,10 @@
 }
 .btnGit:hover {
   border: 2px solid #333333;
+}
+
+@media screen and (min-width: 1020px) {
+  .project {
+    background-color: red;
+  }
 }
