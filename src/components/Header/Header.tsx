@@ -25,9 +25,9 @@ export default function Header() {
     <>
     <div className={styles.myHeader}>
       <div className={styles.headerLinks}>
-       <Link href="/">Home</Link>
-       <Link href="ProfilePage">Sobre mim</Link>
-       <Link href="ProjectsPage">Projetos</Link>
+       <Link className={styles.linksNav} href="/">Home</Link>
+       <Link className={styles.linksNav} href="ProfilePage">Sobre mim</Link>
+       <Link className={styles.linksNav} href="ProjectsPage">Projetos</Link>
       </div>
       <button onClick={handleMenuClick} className={styles.btnMenu}>
       <SlMenu />

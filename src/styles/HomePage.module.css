@@ -11,7 +11,6 @@
   align-items: center;
 }
 .aboutMe {
-  margin-top: 12px;
   padding-bottom: 50px;
 }
 .aboutMe > p {
@@ -35,4 +34,10 @@
   border: 2px solid #333333;
   transition: all 0.4s ease-in-out;
   transition-delay: 0.1s;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .aboutMe {
+    width: 400px;
+  }
 }

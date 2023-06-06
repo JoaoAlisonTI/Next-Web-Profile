@@ -40,10 +40,18 @@
 .headerLinks {
   display: none;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
+  margin-left: 10px;
 }
-.headerLinks > Link {
-  padding-right: 8px;
+.linksNav {
+  padding: 6px;
+  border-radius: 10px;
+  color: #f8f8f8;
+}
+.linksNav:hover {
+  border: 2px solid #333333;
+  background-color: #000000;
 }
 .menuContent {
   z-index: 999;
