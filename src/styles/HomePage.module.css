@@ -11,7 +11,7 @@
   align-items: center;
 }
 .aboutMe {
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 .aboutMe > p {
   margin-top: 8px;
@@ -25,7 +25,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 80px;
+  padding-bottom: 16px;
 }
 .btnMedia {
   display: flex;
@@ -36,13 +36,13 @@
   border-radius: 10px;
   background: none;
   text-decoration: none;
-  /*color: #f8f8f8;*/
+  background-color: #000000;
+  color: #f8f8f8;
   font-size: 20px;
   transition: all 0.4s;
 }
 .btnMedia:hover {
   border: 2px solid #333333;
-  /*background-color: #000000;*/
 }
 .btnCv {
   padding: 14px 15px;
@@ -59,7 +59,7 @@
   transition-delay: 0.1s;
 }
 .sectionSkills {
-  margin: 72px 25px 25px 25px;
+  margin: 80px 25px 25px 25px;
 }
 .sectionSkills > h1 {
   font-size: 32px;
@@ -79,6 +79,6 @@
   }
   .sectionSkills {
     margin: 0 auto;
-    width: 500px;
+    width: 480px;
   }
 }

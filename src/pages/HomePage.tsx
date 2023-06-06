@@ -25,6 +25,7 @@ export default function HomePage() {
                 <h3></h3>
                 <p>Como um desenvolvedor full stack, dedico-me a transformar ideias em aplicações web inovadoras, buscando sempre as melhores ferramentas e métricas de desenvolvimento. Explore meu portifólio, monstrando minha experiência em desenvolvimento web.</p>
               </div>
+              
               <div className={styles.socialMedia}>
                 <a href="https://github.com/JoaoAlisonTI" target="_blank" className={styles.btnMedia}><FaGithub />
                 </a>
@@ -33,6 +34,7 @@ export default function HomePage() {
                 <a href="https://www.instagram.com/joao_alison_23/" target="_blank" className={styles.btnMedia}><FaInstagram />
                 </a>
               </div>
+              
               <div>
               <Link 
               className={styles.btnCv}
@@ -40,6 +42,7 @@ export default function HomePage() {
               Leia mais
               </Link>
               </div>
+              
         </section>
         <section className={styles.sectionSkills}>
           <h1>Skills</h1>
