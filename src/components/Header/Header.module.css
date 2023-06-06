@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(4,6,0,0.9)/*rgba(0, 29, 44, 0.9)*/;
+  background-color: rgba(4,6,0,0.9);
   backdrop-filter: blur(4px);
   box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);
   -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);
@@ -42,7 +42,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-left: 10px;
 }
 .linksNav {
   margin-right: 6px;
@@ -118,7 +117,7 @@
 }
 .btnMedia:hover {
   border: 2px solid #333333;
-  background-color: #000000/*#202A45*/;
+  background-color: #000000;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
