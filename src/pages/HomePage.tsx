@@ -12,7 +12,7 @@ export default function HomePage() {
         <section className={styles.sectionAbout}>
          <div className={styles.divImage}>
                 <Image 
-                src="/photo2.svg" 
+                src="/photo.png" 
                 alt="Minha imagem de perfil"
                 height={240}
                 width={240} />

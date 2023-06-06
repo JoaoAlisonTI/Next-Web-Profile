@@ -25,7 +25,8 @@
   margin-top: 8px;
   font-size: 16px;
   line-height: 25px;
-  color: #514e4e;
+  font-weight: 500;
+  color: #6f6e6e;
 }
 .aboutMe > h1 {
   font-size: 36px;
