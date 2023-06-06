@@ -24,11 +24,6 @@ export default function Header() {
   return (
     <>
     <div className={styles.myHeader}>
-      <div className={styles.headerLinks}>
-       <Link className={styles.linksNav} href="/">Home</Link>
-       <Link className={styles.linksNav} href="ProfilePage">Sobre mim</Link>
-       <Link className={styles.linksNav} href="ProjectsPage">Projetos</Link>
-      </div>
       <button onClick={handleMenuClick} className={styles.btnMenu}>
       <SlMenu />
       </button>
@@ -37,6 +32,11 @@ export default function Header() {
       width={90} height={90} 
       />
       </span>
+      <div className={styles.headerLinks}>
+       <Link className={styles.linksNav} href="/">Home</Link>
+       <Link className={styles.linksNav} href="ProfilePage">Sobre mim</Link>
+       <Link className={styles.linksNav} href="ProjectsPage">Projetos</Link>
+      </div>
       <div className={styles.divChange}>
       <ThemeToggle />
       </div>

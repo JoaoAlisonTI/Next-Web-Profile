@@ -45,9 +45,13 @@
   margin-left: 10px;
 }
 .linksNav {
+  margin-right: 6px;
   padding: 6px;
   border-radius: 10px;
+  font-size: 16px;
   color: #f8f8f8;
+  transition: all 0.3s;
+  cursor: pointer;
 }
 .linksNav:hover {
   border: 2px solid #333333;
