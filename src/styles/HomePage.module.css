@@ -25,7 +25,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 16px;
+  padding-bottom: 20px;
 }
 .btnMedia {
   display: flex;
@@ -59,7 +59,7 @@
   transition-delay: 0.1s;
 }
 .sectionSkills {
-  margin: 80px 25px 25px 25px;
+  margin: 100px 25px 25px 25px;
 }
 .sectionSkills > h1 {
   font-size: 32px;
@@ -77,8 +77,12 @@
     margin: 0 auto;
     width: 500px;
   }
-  .sectionSkills {
+  .mySkills {
     margin: 0 auto;
-    width: 480px;
+    width: 450px;
+  }
+  .skillsTech {
+    margin: 0 auto;
+    width: 450px;
   }
 }
