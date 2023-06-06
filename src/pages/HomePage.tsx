@@ -14,8 +14,8 @@ export default function HomePage() {
                 <Image 
                 src="/photo.png" 
                 alt="Minha imagem de perfil"
-                height={240}
-                width={240} />
+                height={290}
+                width={290} />
               </div>
           <div className={styles.aboutMe}>
                 <h1>Desenvolvedor Web Full Stack</h1>
