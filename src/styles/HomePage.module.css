@@ -11,15 +11,13 @@
   align-items: center;
 }
 .aboutMe {
-  margin-top: 20px;
+  margin-top: 12px;
   padding-bottom: 50px;
 }
 .aboutMe > p {
   margin-top: 8px;
   font-size: 16px;
   line-height: 25px;
-  font-weight: 500;
-  color: #333333;
 }
 .aboutMe > h1 {
   font-size: 36px;

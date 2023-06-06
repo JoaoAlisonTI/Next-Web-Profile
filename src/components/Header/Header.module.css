@@ -37,6 +37,14 @@
 .divChange {
   margin-right: 8px;
 }
+.headerLinks {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+}
+.headerLinks > Link {
+  padding-right: 8px;
+}
 .menuContent {
   z-index: 999;
   top: 0;
@@ -99,4 +107,13 @@
 .btnMedia:hover {
   border: 2px solid #333333;
   background-color: #000000/*#202A45*/;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .btnMenu {
+    display: none;
+  }
+  .headerLinks {
+    display: block;
+  }
 }

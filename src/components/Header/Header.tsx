@@ -24,6 +24,11 @@ export default function Header() {
   return (
     <>
     <div className={styles.myHeader}>
+      <div className={styles.headerLinks}>
+       <Link href="/">Home</Link>
+       <Link href="ProfilePage">Sobre mim</Link>
+       <Link href="ProjectsPage">Projetos</Link>
+      </div>
       <button onClick={handleMenuClick} className={styles.btnMenu}>
       <SlMenu />
       </button>
