@@ -1,10 +1,9 @@
 .sectionProfile {
-  margin: 120px 25px 25px 25px;
+  margin: 120px 24px 24px 24px;
+  font-family: var(--ff-poppins);
 }
 .myProfile > p {
-  font-weight: 500;
   text-align: justify;
-  line-height: 25px;
 }
 .myProfile > h1 {
   font-size: 32px;
@@ -13,7 +12,8 @@
   margin-bottom: 16px;
 }
 .sectionExperience {
-  margin: 92px 25px 25px 25px;
+  margin: 92px 24px 24px 24px;
+  font-family: var(--ff-poppins);
 }
 .sectionExperience > h1 {
   text-align: center;
@@ -25,27 +25,28 @@
   border-left: 3px solid #000000;
 }
 .myExperience {
-  margin-left: 6px;
-  padding: 0px 10px 0px 25px;
+  margin-left: 8px;
+  padding: 0px 12px 0px 24px;
 }
 .circle {
   float: left;
   border-radius: 100%;
-  width: 15px;
-  height: 15px;
+  width: 16px;
+  height: 16px;
   background-color: #000000;
 }
 .myExperience > h5 {
-  margin: 10px 0px 10px 0px;
-  font-weight: 400;
+  margin: 12px 0px 12px 0px;
+  font-weight: var(--fw-1);
 }
 .myExperience > p {
-  font-weight: 500;
+  font-weight: var(--fw-2);
   text-align: justify;
-  line-height: 22px;
+  line-height: 20px;
 }
 .sectionEducation {
-  margin: 80px 25px 25px 25px;
+  margin: 80px 24px 24px 24px;
+  font-family: var(--ff-poppins);
 }
 .sectionEducation > h1 {
   font-size: 32px;
@@ -57,18 +58,19 @@
   border-left: 3px solid #000000;
 }
 .myEducation {
-  margin-left: 6px;
-  padding: 0px 10px 0px 20px;
+  margin-left: 8px;
+  padding: 0px 12px 0px 20px;
 }
 .myEducation > h5 {
-  margin: 7px 0px 0px 0px;
-  font-weight: 400;
+  margin: 8px 0px 0px 0px;
+  font-weight: var(--fw-1);
 }
 .myEducation > h5 > ul {
   margin-left: 20px;
 }
 .sectionCertifications {
-  margin: 72px 0px 25px 0px;
+  margin: 72px 0px 24px 0px;
+  font-family: var(--ff-poppins);
 }
 .sectionCertifications > h1 {
   font-size: 32px;
@@ -77,7 +79,8 @@
   margin-bottom: 16px;
 }
 .sectionSkills {
-  margin: 72px 25px 25px 25px;
+  margin: 72px 24px 24px 24px;
+  font-family: var(--ff-poppins);
 }
 .sectionSkills > h1 {
   font-size: 32px;
@@ -87,7 +90,7 @@
 }
 .mySkills > h3 {
   margin-top: 40px;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
