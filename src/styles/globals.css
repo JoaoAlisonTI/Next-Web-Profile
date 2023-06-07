@@ -12,10 +12,12 @@
   --fw-3: 700;
 
   --fs-1: 16px;
-  --fs-2: 24px
-  --fs-3: 32px
-  --fs-4: 48px
-
+  --fs-2: 24px;
+  --fs-3: 32px;
+  --fs-4: 48px;
+  
+  --border-r: 12px;
+  
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
