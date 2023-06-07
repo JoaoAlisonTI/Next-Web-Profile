@@ -1,5 +1,5 @@
 .sectionAbout {
-  margin: 128px 24px 25px 24px;
+  margin: 128px 24px 24px 24px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -16,7 +16,7 @@
 .aboutMe > p {
   margin-top: 8px;
   font-size: 16px;
-  line-height: 25px;
+  font-family: var(--ff-poppins);
 }
 .aboutMe > h1 {
   font-size: 36px;
