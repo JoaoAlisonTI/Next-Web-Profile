@@ -6,7 +6,7 @@ import styles from '@/components/CarouselCertifications/CarouselCertifications.m
 export default function CarouselCertifications() {
   return (
     <>
-    <div className={styles.carouselContainer} height={186}>
+    <div className={styles.carouselContainer}>
     <Carousel infiniteLoop={true} autoPlay={true} showThumbs={true} showStatus={false} interval={3000} showIndicators={false}>
       <div>
         <Image src="/certificados/certificado-dsm-min.png" alt="Certificado Introdução ao Desenvolvimento Moderno de Software" height={186} />
