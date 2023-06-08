@@ -9,20 +9,20 @@ export default function CarouselCertifications() {
     <div className={styles.carouselContainer}>
     <Carousel infiniteLoop={true} autoPlay={true} showThumbs={true} showStatus={false} interval={3000} showIndicators={false}>
       <div>
-        <Image src="/certificados/certificado-dsm-min.png" alt="Certificado Introdução ao Desenvolvimento Moderno de Software" height={182} />
-        <div>Olá mundo</div>
+        <Image src="/certificados/certificado-dsm-min.png" alt="Certificado Introdução ao Desenvolvimento Moderno de Software" height={186} />
+        <div><h4>Introdução ao Desenvolvimento Moderno de Software</h4></div>
       </div>
       <div>
-        <Image src="/certificados/certificado-angular.png" alt="Certificado Potência Tech Angular Developer" height={182} />
-        <div></div>
+        <Image src="/certificados/certificado-angular.png" alt="Certificado Potência Tech Angular Developer" height={186} />
+        <div><h4>Potência Tech Angular Developer - Powered by iFood</h4></div>
       </div>
       <div>
-        <Image src="/certificados/js0-trybe.png" alt="Certificado JavaScript do zero" height={182} />
-        <div></div>
+        <Image src="/certificados/js0-trybe.png" alt="Certificado JavaScript do zero" height={186} />
+        <div><h4>JavaScript do zero</h4></div>
       </div>
       <div>
-        <Image src="/certificados/hero-code.jpg" alt="Certificado do Workshop Semana do Herói - Hero Code" height={182} />
-        <div></div>
+        <Image src="/certificados/hero-code.jpg" alt="Certificado do Workshop Semana do Herói - Hero Code" height={186} />
+        <div><h4>Workshop Semana do Herói - Hero Code</h4></div>
       </div>
     </Carousel>
     </div>

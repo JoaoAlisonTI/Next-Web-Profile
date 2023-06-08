@@ -5,6 +5,8 @@ export default function SkillsTech() {
   return (
     <>
       <div className={styles.container}>
+       <h3>Tech Stack</h3>
+       <div className={styles.content}>
         <div className={styles.tech}>
           <Image src="/icons/html5.svg" alt="Html5 Icon" height={50} width={50} />
         </div>
@@ -50,7 +52,7 @@ export default function SkillsTech() {
         <div className={styles.tech}>
           <Image src="/icons/bootsrap5.svg" alt="Bootstrap5 Icon" height={50} width={50} />
         </div>
-        
+       </div>
         
       </div>
     </>

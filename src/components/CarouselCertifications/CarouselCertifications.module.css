@@ -9,10 +9,14 @@
   border-radius: 12px;
   background-color: #000000;
   width: 324px;
+  font-family: var(--ff-poppins);
 }
-
+.carouselContainer div > h4 {
+  margin-top: 16px;
+  text-align: center;
+}
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .carouselContainer {
-    width: 400px;
+    width: 424px;
   }
 }
