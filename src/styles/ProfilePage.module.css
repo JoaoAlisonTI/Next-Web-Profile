@@ -115,9 +115,12 @@
   }
   .mySkills {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+  }
+  .skillsStats {
+    width: 400px;
   }
   .skillsTech {
     width: 400px;
