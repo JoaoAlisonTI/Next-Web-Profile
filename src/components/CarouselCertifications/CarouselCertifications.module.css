@@ -6,13 +6,13 @@
   padding: 4px;
   margin: 0 auto;
   border: 3px solid #333333;
-  border-radius: 10px;
+  border-radius: 12px;
   background-color: #000000;
   width: 324px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .carouselContainer {
-    width: 360px;
+    width: 400px;
   }
 }

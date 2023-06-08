@@ -31,8 +31,8 @@
 .circle {
   float: left;
   border-radius: 100%;
-  width: 16px;
-  height: 16px;
+  width: 12px;
+  height: 12px;
   background-color: #000000;
 }
 .myExperience > h5 {
@@ -40,7 +40,6 @@
   font-weight: var(--fw-1);
 }
 .myExperience > p {
-  font-weight: var(--fw-2);
   text-align: justify;
   line-height: 20px;
 }
@@ -113,5 +112,12 @@
   .sectionSkills {
     padding-left: 30px;
     padding-right: 30px;
+  }
+  .mySkills {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .skillsTech {
+    width: 400px;
   }
 }
