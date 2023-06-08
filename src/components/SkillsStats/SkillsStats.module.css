@@ -20,3 +20,9 @@
   text-align: right;
   font-size: 12px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .skillMain {
+    margin-top: 0;
+  }
+}

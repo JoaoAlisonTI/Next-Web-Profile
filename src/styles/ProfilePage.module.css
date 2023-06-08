@@ -87,10 +87,6 @@
   margin-top: 8px;
   margin-bottom: 16px;
 }
-.mySkills > h3 {
-  margin-top: 40px;
-  margin-bottom: 16px;
-}
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .sectionProfile {
@@ -120,7 +116,7 @@
     align-items: center;
   }
   .skillsStats {
-    width: 400px;
+    width: 432px;
   }
   .skillsTech {
     width: 400px;

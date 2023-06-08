@@ -8,16 +8,18 @@
   border: 3px solid #333333;
   border-radius: 12px;
   background-color: #000000;
+  width: 24px;
   max-width: 324px;
   font-family: var(--ff-poppins);
 }
-.carouselContainer div > h4 {
+.carouselContainer h4 {
   margin-top: 16px;
   text-align: center;
   color: #f8f8f8;
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .carouselContainer {
-    max-width: 424px;
+    width: 400px;
+    max-width: 400px;
   }
 }
