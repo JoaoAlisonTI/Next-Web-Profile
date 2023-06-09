@@ -44,16 +44,16 @@ export default function CarouselCertifications() {
   
   return (
     <>
-    <Box display="flex" alignItems="center" flexDirection="column">
-      <Box width="300px" height="300px" >
+    <Box display="flex" alignItems="center" flexDirection="column" backgroundColor="#000000" color="#f8f8f8">
+      <Box width="300px" height="300px" position="relative">
         {images.map((image, index) => (
           <Image
             key={index}
             src={image.src}
             alt={`Imagem do Certificado ${index + 1}`}
             style={{
+              position: 'absolute',
               width: 'auto',
-              objectFit: 'cover',
               opacity: currentImage === index ? 1 : 0,
               transition: 'opacity 0.3s ease-in-out',
             }}
