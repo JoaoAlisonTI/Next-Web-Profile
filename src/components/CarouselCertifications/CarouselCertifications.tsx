@@ -45,16 +45,14 @@ export default function CarouselCertifications() {
   return (
     <>
     <Box display="flex" alignItems="center" flexDirection="column">
-      <Box width="300px" height="300px" position="relative" overflow="hidden">
+      <Box width="300px" height="300px" >
         {images.map((image, index) => (
-          <img
+          <Image
             key={index}
             src={image.src}
-            alt={`Imagem ${index + 1}`}
+            alt={`Imagem do Certificado ${index + 1}`}
             style={{
-              position: 'absolute',
-              width: '100%',
-              height: '100%',
+              width: 'auto',
               objectFit: 'cover',
               opacity: currentImage === index ? 1 : 0,
               transition: 'opacity 0.3s ease-in-out',
@@ -72,7 +70,7 @@ export default function CarouselCertifications() {
         </Typography>
       </Box>
 
-      <Typography variant="body1">{images[currentImage].description}</Typography>
+      <Typography textAlign="center" variant="body1">{images[currentImage].description}</Typography>
     </Box>
     </>
   )
