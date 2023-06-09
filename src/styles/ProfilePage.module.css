@@ -122,25 +122,17 @@
     padding-left: 30px;
     padding-right: 30px;
   }
-  .sectionCertifications {
-    padding-left: 138px;
-    padding-right: 138px;
-  }
   .sectionSkills {
     padding-left: 30px;
     padding-right: 30px;
   }
   .mySkills {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
     margin: 0 auto;
   }
   .skillsStats {
-    width: 436px;
+    max-width: 420px;
   }
   .skillsTech {
-    width: 400px;
+    max-width: 416px;
   }
 }
