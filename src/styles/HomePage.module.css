@@ -101,11 +101,11 @@
   }
   .mySkills {
     margin: 0 auto;
-    max-width: 530px;/*Teste*/
+    max-width: 416px;
   }
   .skillsTech {
     margin: 0 auto;
-    max-width: 530px;
+    max-width: 416px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -115,10 +115,10 @@
   }
   .mySkills {
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 540px;
   }
   .skillsTech {
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 540px;
   }
 }
