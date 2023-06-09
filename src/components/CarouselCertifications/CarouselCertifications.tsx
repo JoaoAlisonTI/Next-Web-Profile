@@ -44,7 +44,7 @@ export default function CarouselCertifications() {
   
   return (
     <>
-    <Box display="flex" alignItems="center" flexDirection="column" backgroundColor="#000000">
+    <Box display="flex" alignItems="center" flexDirection="column" style={{ backgroundColor: '#000000' }}>
       <Box width="300px" height="300px" position="relative">
         {images.map((image, index) => (
           <Image
@@ -62,15 +62,15 @@ export default function CarouselCertifications() {
       </Box>
 
       <Box mt={2} display="flex" alignItems="center">
-        <Typography variant="body2" onClick={handlePrevImage} style={{ cursor: 'pointer', marginRight: '16px', color='#f8f8f8' }}>
+        <Typography variant="body2" onClick={handlePrevImage} style={{ cursor: 'pointer', marginRight: '16px', color: '#f8f8f8' }}>
           Anterior
         </Typography>
-        <Typography variant="body2" onClick={handleNextImage} style={{ cursor: 'pointer', color='#f8f8f8' }}>
+        <Typography variant="body2" onClick={handleNextImage} style={{ cursor: 'pointer', color: '#f8f8f8' }}>
           Próximo
         </Typography>
       </Box>
 
-      <Typography textAlign="center" variant="body1" style={{ color='#f8f8f8' }}>{images[currentImage].description}</Typography>
+      <Typography textAlign="center" variant="body1" style={{ color: '#f8f8f8' }}>{images[currentImage].description}</Typography>
     </Box>
     </>
   )
