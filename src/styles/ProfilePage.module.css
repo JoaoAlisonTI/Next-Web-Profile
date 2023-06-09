@@ -1,6 +1,8 @@
 .sectionProfile {
+  opacity: 0;
   margin: 120px 24px 24px 24px;
   font-family: var(--ff-poppins);
+  animation: appear 2s forwards;
 }
 .myProfile > p {
   text-align: justify;
@@ -12,8 +14,10 @@
   margin-bottom: 16px;
 }
 .sectionExperience {
+  opacity: 0;
   margin: 92px 24px 24px 24px;
   font-family: var(--ff-poppins);
+  animation: appear 2s forwards;
 }
 .sectionExperience > h1 {
   text-align: center;
@@ -31,8 +35,8 @@
 .circle {
   float: left;
   border-radius: 100%;
-  width: 12px;
-  height: 12px;
+  width: 16px;
+  height: 16px;
   background-color: #000000;
 }
 .myExperience > h5 {
@@ -44,8 +48,10 @@
   line-height: 20px;
 }
 .sectionEducation {
+  opacity: 0;
   margin: 80px 24px 24px 24px;
   font-family: var(--ff-poppins);
+  animation: appear 2s forwards;
 }
 .sectionEducation > h1 {
   font-size: 32px;
@@ -68,9 +74,11 @@
   margin-left: 20px;
 }
 .sectionCertifications {
+  opacity: 0;
   margin: 72px 0px 24px 0px;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 16px 0px 16px;
   font-family: var(--ff-poppins);
+  animation: appear 2s forwards;
 }
 .sectionCertifications > h1 {
   font-size: 32px;
@@ -79,14 +87,26 @@
   margin-bottom: 16px;
 }
 .sectionSkills {
+  opacity: 0;
   margin: 72px 24px 24px 24px;
   font-family: var(--ff-poppins);
+  animation: appear 2s forwards;
 }
 .sectionSkills > h1 {
   font-size: 32px;
   text-align: center;
   margin-top: 8px;
   margin-bottom: 16px;
+}
+
+@keyframes appear {
+  0% {
+    transform: translateX(-24px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -103,8 +123,8 @@
     padding-right: 30px;
   }
   .sectionCertifications {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
   }
   .sectionSkills {
     padding-left: 30px;
@@ -117,7 +137,7 @@
     align-items: center;
   }
   .skillsStats {
-    width: 432px;
+    width: 440px;
   }
   .skillsTech {
     width: 400px;

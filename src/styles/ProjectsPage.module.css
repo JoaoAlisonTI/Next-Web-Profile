@@ -1,6 +1,8 @@
 .sectionProjects {
+  opacity: 0;
   margin: 120px 25px 25px 25px;
   font-family: var(--ff-poppins);
+  animation: appear 2s forwards;
 }
 .content > {
   width: auto;
@@ -11,6 +13,16 @@
   margin-top: 8px;
   margin-bottom: 24px;
 }
+@keyframes appear {
+  0% {
+    transform: translateY(-120px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .content {
     display: flex;

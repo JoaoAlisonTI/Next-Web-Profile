@@ -23,6 +23,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .skillMain {
-    margin-top: 0;
+    margin-top: 0px;
   }
 }

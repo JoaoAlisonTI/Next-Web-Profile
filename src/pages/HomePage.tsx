@@ -61,7 +61,7 @@ export default function HomePage() {
                   />
                   
                 </div>
-                <h3>Tech Stack</h3>
+                
                 <div className={styles.skillsTech}>
                   <SkillsTech />
                 </div>

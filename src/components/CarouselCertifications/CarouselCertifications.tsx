@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Box, Typography } from '@mui/material';
 
 import Image from 'next/image'
+import styles from '@/components/CarouselCertifications/CarouselCertifications.module.css'
 
 export default function CarouselCertifications() {
   
@@ -45,9 +46,9 @@ export default function CarouselCertifications() {
   return (
     <>
     <Box display="flex" alignItems="center" flexDirection="column" style={{ margin: '0 auto', padding: '8px', backgroundColor: '#000000', borderRadius: '12px', border: '2px solid #333333' }}>
-      <Box position="relative" height="264px" width="308px">
+      <Box className={styles.boxImage} position="relative" height="264px" width="308px">
         {images.map((image, index) => (
-          <Image
+          <Image className={styles.myImage}
             key={index}
             src={image.src}
             alt={`Imagem do Certificado ${index + 1}`}
