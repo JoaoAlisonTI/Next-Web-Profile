@@ -44,7 +44,7 @@ export default function CarouselCertifications() {
   
   return (
     <>
-    <Box display="flex" alignItems="center" flexDirection="column" style={{ backgroundColor: '#000000' }}>
+    <Box display="flex" alignItems="center" flexDirection="column" style={{ margin: '0 auto', backgroundColor: '#000000' }}>
       <Box width="300px" height="300px" position="relative">
         {images.map((image, index) => (
           <Image
@@ -53,14 +53,18 @@ export default function CarouselCertifications() {
             alt={`Imagem do Certificado ${index + 1}`}
             style={{
               position: 'absolute',
-              width: 'auto',
+              height: '300px',
+              width: '300px',
               opacity: currentImage === index ? 1 : 0,
               transition: 'opacity 0.3s ease-in-out',
             }}
           />
         ))}
       </Box>
-
+       
+      <Typography textAlign="center" variant="body1" style={{ color: '#f8f8f8' }}>{images[currentImage].description}
+      </Typography>
+      
       <Box mt={2} display="flex" alignItems="center">
         <Typography variant="body2" onClick={handlePrevImage} style={{ cursor: 'pointer', marginRight: '16px', color: '#f8f8f8' }}>
           Anterior
@@ -70,7 +74,6 @@ export default function CarouselCertifications() {
         </Typography>
       </Box>
 
-      <Typography textAlign="center" variant="body1" style={{ color: '#f8f8f8' }}>{images[currentImage].description}</Typography>
     </Box>
     </>
   )
