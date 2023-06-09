@@ -131,10 +131,39 @@
   }
   .skillsStats {
     margin: 0 auto;
-    max-width: 420px;
+    max-width: 416px;
   }
   .skillsTech {
     margin: 0 auto;
     max-width: 416px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .sectionProfile {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .sectionExperience {
+    padding-left: 40px;
+    padding-right: 60px;
+  }
+  .sectionEducation {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .sectionSkills {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .mySkills {
+    margin: 0 auto;
+  }
+  .skillsStats {
+    margin: 0 auto;
+    max-width: 460px;
+  }
+  .skillsTech {
+    margin: 0 auto;
+    max-width: 460px;
   }
 }

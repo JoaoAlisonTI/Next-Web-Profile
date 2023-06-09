@@ -1,23 +1,37 @@
 .boxImage {
-  height: 264px;
-  width: 308px;
+  height: 168.75px;
+  width: 300px;
 }
 .myImage {
-  height: 264px;
+  height: 168.75px;
   width: 100%;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .boxContainer {
-    width: 480px;
-    max-width: 480px;
+    width: 520px;
+    max-width: 520px;
   }
   .boxImage {
-    height: 364px;
-    width: 440px;
+    height: 281.25px;
+    width: 500px;
   }
   .myImage {
-    height: 364px;
+    height: 281.25px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .boxContainer {
+    width: 560px;
+    max-width: 560px;
+  }
+  .boxImage {
+    height: 303.75px;
+    width: 540px;
+  }
+  .myImage {
+    height: 303.75px;
     width: 100%;
   }
 }
