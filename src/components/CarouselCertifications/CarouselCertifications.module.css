@@ -1,5 +1,6 @@
 .boxContainer {
-  max-width: 420px;
+  width: 480px;
+  max-width: 480px;
 }
 .boxImage {
   height: 264px;
