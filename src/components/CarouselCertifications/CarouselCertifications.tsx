@@ -53,8 +53,8 @@ export default function CarouselCertifications() {
             alt={`Imagem do Certificado ${index + 1}`}
             style={{
               position: 'absolute',
-              height: '100%',
-              width: '100%',
+              height: '280px',
+              width: '320px',
               opacity: currentImage === index ? 1 : 0,
               transition: 'opacity 0.3s ease-in-out',
             }}
@@ -65,7 +65,7 @@ export default function CarouselCertifications() {
       <Typography textAlign="center" variant="body1" style={{ color: '#f8f8f8' }}>{images[currentImage].description}
       </Typography>
       
-      <Box mt={2} display="flex" alignItems="center">
+      <Box mt={4} display="flex" alignItems="center">
         <Typography variant="body2" onClick={handlePrevImage} style={{ cursor: 'pointer', marginRight: '16px', color: '#f8f8f8' }}>
           Anterior
         </Typography>
