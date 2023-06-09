@@ -45,8 +45,8 @@ export default function CarouselCertifications() {
   
   return (
     <>
-    <Box display="flex" alignItems="center" flexDirection="column" style={{ margin: '0 auto', padding: '8px', backgroundColor: '#000000', borderRadius: '12px', border: '2px solid #333333' }}>
-      <Box className={styles.boxImage} position="relative" height="264px" width="308px">
+    <Box className={styles.boxContainer} display="flex" alignItems="center" flexDirection="column" style={{ margin: '0 auto', padding: '8px', backgroundColor: '#000000', borderRadius: '12px', border: '2px solid #333333' }}>
+      <Box className={styles.boxImage} position="relative">
         {images.map((image, index) => (
           <Image className={styles.myImage}
             key={index}
@@ -55,8 +55,6 @@ export default function CarouselCertifications() {
             style={{
               position: 'absolute',
               borderRadius: '12px',
-              height: '264px',
-              width: '100%',
               opacity: currentImage === index ? 1 : 0,
               transition: 'opacity 0.3s ease-in-out',
             }}

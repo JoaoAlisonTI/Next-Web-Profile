@@ -124,25 +124,22 @@
     padding-right: 30px;
   }
   .sectionCertifications {
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 138px;
+    padding-right: 138px;
   }
   .sectionSkills {
     padding-left: 30px;
     padding-right: 30px;
   }
   .mySkills {
-    background-color: red;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
   }
   .skillsStats {
-    background-color: green;
     width: 436px;
   }
   .skillsTech {
-    background-color: yellow;
     width: 400px;
   }
 }

@@ -1,6 +1,17 @@
+.boxContainer {
+  max-width: 420px;
+}
+.boxImage {
+  height: 264px;
+  width: 308px;
+}
+.myImage {
+  height: 264px;
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .boxImage {
-    background-color: red;
     height: 364px;
     max-width: 400px;
   }
