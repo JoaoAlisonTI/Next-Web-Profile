@@ -26,7 +26,7 @@ export default function CarouselCertifications() {
     },
   ];
 
-  const handleChangeImage = (index) => {
+  const handleChangeImage = (index: number) => {
     setCurrentImage(index);
   };
   
