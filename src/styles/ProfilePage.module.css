@@ -69,6 +69,7 @@
 }
 .sectionCertifications {
   margin: 72px 0px 24px 0px;
+  padding: 0px 24px 0px 24px;
   font-family: var(--ff-poppins);
 }
 .sectionCertifications > h1 {
