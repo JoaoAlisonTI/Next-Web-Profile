@@ -101,10 +101,10 @@
   }
   .mySkills {
     margin: 0 auto;
-    width: 440px;
+    max-width: 428px;
   }
   .skillsTech {
     margin: 0 auto;
-    width: 400px;
+    max-width: 416px;
   }
 }
