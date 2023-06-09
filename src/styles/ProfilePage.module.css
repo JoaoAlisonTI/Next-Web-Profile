@@ -130,9 +130,11 @@
     margin: 0 auto;
   }
   .skillsStats {
+    margin: 0 auto;
     max-width: 420px;
   }
   .skillsTech {
+    margin: 0 auto;
     max-width: 416px;
   }
 }

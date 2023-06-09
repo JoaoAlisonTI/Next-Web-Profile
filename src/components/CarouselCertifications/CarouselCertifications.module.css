@@ -9,12 +9,12 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .boxContainer {
-    width: 440px;
-    max-width: 440px;
+    width: 480px;
+    max-width: 480px;
   }
   .boxImage {
     height: 364px;
-    width: 400px;
+    width: 440px;
   }
   .myImage {
     height: 364px;
