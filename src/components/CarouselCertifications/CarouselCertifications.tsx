@@ -45,7 +45,7 @@ export default function CarouselCertifications() {
   return (
     <>
     <Box display="flex" alignItems="center" flexDirection="column" height="288px" style={{ margin: '0 auto', padding: '8px', backgroundColor: '#000000', borderRadius: '12px', border: '2px solid #333333' }}>
-      <Box position="relative">
+      <Box position="relative" height="280px">
         {images.map((image, index) => (
           <Image
             key={index}
