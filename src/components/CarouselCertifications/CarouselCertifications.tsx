@@ -44,8 +44,8 @@ export default function CarouselCertifications() {
   
   return (
     <>
-    <Box display="flex" alignItems="center" flexDirection="column" width="320px" height="280px" style={{ margin: '0 auto', padding: '4px', backgroundColor: '#000000', borderRadius: '12px', border: '2px solid #333333' }}>
-      <Box position="relative">
+    <Box display="flex" alignItems="center" flexDirection="column" style={{ margin: '0 auto', padding: '4px', backgroundColor: '#000000', borderRadius: '12px', border: '2px solid #333333' }}>
+      <Box position="relative" width="320px" height="280px">
         {images.map((image, index) => (
           <Image
             key={index}
@@ -53,7 +53,7 @@ export default function CarouselCertifications() {
             alt={`Imagem do Certificado ${index + 1}`}
             style={{
               position: 'absolute',
-              height: '280px',
+              height: '100%',
               width: '320px',
               opacity: currentImage === index ? 1 : 0,
               transition: 'opacity 0.3s ease-in-out',
