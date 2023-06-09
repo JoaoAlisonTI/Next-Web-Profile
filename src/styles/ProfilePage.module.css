@@ -26,7 +26,7 @@
   margin-bottom: 16px;
 }
 .sectionExperience div:nth-child(3) {
-  border-left: 3px solid #000000;
+  border-left: 4px solid #000000;
 }
 .myExperience {
   margin-left: 8px;
@@ -60,7 +60,7 @@
   margin-bottom: 16px;
 }
 .sectionEducation div:nth-child(3) {
-  border-left: 3px solid #000000;
+  border-left: 4px solid #000000;
 }
 .myEducation {
   margin-left: 8px;
@@ -124,8 +124,8 @@
     padding-right: 30px;
   }
   .sectionCertifications {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 140px;
+    padding-right: 140px;
   }
   .sectionSkills {
     padding-left: 30px;
