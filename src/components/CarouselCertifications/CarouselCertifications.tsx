@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Box, Typography } from '@mui/material';
 
 import Image from 'next/image'
@@ -25,27 +25,54 @@ export default function CarouselCertifications() {
       description: 'Workshop Semanda do Herói - Hero Code',
     },
   ];
+  
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prevImage) => (prevImage === images.length - 1 ? 0 : prevImage + 1));
+    }, 3000);
 
-  const handleChangeImage = (index: number) => {
-    setCurrentImage(index);
+    return () => clearInterval(interval);
+  }, []);
+
+  const handlePrevImage = () => {
+    setCurrentImage((prevImage) => (prevImage === 0 ? images.length - 1 : prevImage - 1));
+  };
+
+  const handleNextImage = () => {
+    setCurrentImage((prevImage) => (prevImage === images.length - 1 ? 0 : prevImage + 1));
   };
   
   return (
     <>
-    <Box>
-      <Image src={images[currentImage].src} alt={`Imagem do certificado ${currentImage + 1}`} />
-
-      <Box>
+    <Box display="flex" alignItems="center" flexDirection="column">
+      <Box width="300px" height="300px" position="relative" overflow="hidden">
         {images.map((image, index) => (
-          <Typography
+          <img
             key={index}
-            onClick={() => handleChangeImage(index)}
-            style={{ cursor: 'pointer', fontWeight: currentImage === index ? 'bold' : 'normal' }}
-          >
-            {image.description}
-          </Typography>
+            src={image.src}
+            alt={`Imagem ${index + 1}`}
+            style={{
+              position: 'absolute',
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+              opacity: currentImage === index ? 1 : 0,
+              transition: 'opacity 0.3s ease-in-out',
+            }}
+          />
         ))}
       </Box>
+
+      <Box mt={2} display="flex" alignItems="center">
+        <Typography variant="body2" onClick={handlePrevImage} style={{ cursor: 'pointer', marginRight: '16px' }}>
+          Anterior
+        </Typography>
+        <Typography variant="body2" onClick={handleNextImage} style={{ cursor: 'pointer' }}>
+          Próximo
+        </Typography>
+      </Box>
+
+      <Typography variant="body1">{images[currentImage].description}</Typography>
     </Box>
     </>
   )
