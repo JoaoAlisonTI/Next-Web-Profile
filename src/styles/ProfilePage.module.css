@@ -87,6 +87,7 @@
   margin-bottom: 16px;
 }
 .sectionSkills {
+  background-color: blue;
   opacity: 0;
   margin: 72px 24px 24px 24px;
   font-family: var(--ff-poppins);
@@ -131,15 +132,18 @@
     padding-right: 30px;
   }
   .mySkills {
+    background-color: red;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
   .skillsStats {
+    background-color: green;
     width: 440px;
   }
   .skillsTech {
+    background-color: yellow;
     width: 400px;
   }
 }
