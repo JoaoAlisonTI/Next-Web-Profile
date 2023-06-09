@@ -44,7 +44,7 @@ export default function CarouselCertifications() {
   
   return (
     <>
-    <Box display="flex" alignItems="center" flexDirection="column" style={{ margin: '0 auto', padding: '4px', backgroundColor: '#000000', borderRadius: '12px', border: '2px solid #333333' }}>
+    <Box display="flex" alignItems="center" flexDirection="column" width="330px" height="288px" style={{ margin: '0 auto', padding: '8px', backgroundColor: '#000000', borderRadius: '12px', border: '2px solid #333333' }}>
       <Box position="relative" width="320px" height="280px">
         {images.map((image, index) => (
           <Image
@@ -54,7 +54,7 @@ export default function CarouselCertifications() {
             style={{
               position: 'absolute',
               height: '100%',
-              width: '320px',
+              width: '100%',
               opacity: currentImage === index ? 1 : 0,
               transition: 'opacity 0.3s ease-in-out',
             }}
@@ -62,7 +62,7 @@ export default function CarouselCertifications() {
         ))}
       </Box>
        
-      <Typography textAlign="center" variant="body1" style={{ color: '#f8f8f8' }}>{images[currentImage].description}
+      <Typography textAlign="center" variant="body1" style={{ marginTop: '8px', color: '#f8f8f8' }}>{images[currentImage].description}
       </Typography>
       
       <Box mt={4} display="flex" alignItems="center">
