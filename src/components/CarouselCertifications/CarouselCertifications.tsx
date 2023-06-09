@@ -9,19 +9,19 @@ export default function CarouselCertifications() {
 
   const images = [
     {
-      src: '/certificado-angular.png',
+      src: '/certificados/certificado-angular.png',
       description: 'Potência Tech Angular Developer - Powered by iFood',
     },
     {
-      src: '/certificado-dsm-min.png',
+      src: '/certificados/certificado-dsm-min.png',
       description: 'Introdução ao Desenvolvimento Moderno de Software',
     },
     {
-      src: '/js0-trybe.png',
+      src: '/certificados/js0-trybe.png',
       description: 'JavaScript do zero',
     },
     {
-      src: '/hero-code.jpg',
+      src: '/certificados/hero-code.jpg',
       description: 'Workshop Semanda do Herói - Hero Code',
     },
   ];
