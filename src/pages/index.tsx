@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Header from '@/components/Header/Header'
 import HomePage from './HomePage'
 
 export default function Home() {
@@ -12,7 +11,6 @@ export default function Home() {
         <link rel="icon" type="image/png" href="/icon.png" />
       </Head>
       <main>
-        <Header />
         <HomePage />
       </main>
     </>

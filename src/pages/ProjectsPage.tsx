@@ -1,3 +1,4 @@
+import Header from '@/components/Header/Header'
 import Footer from '@/components/Footer/Footer'
 import CardProject from '@/components/CardProject/CardProject'
 import styles from '../styles/ProjectsPage.module.css'
@@ -5,6 +6,7 @@ import styles from '../styles/ProjectsPage.module.css'
 export default function ProjectsPage() {
   return (
     <>
+    <Header />
       <section className={styles.sectionProjects}>
       <h1>Meus projetos</h1>
       <div className={styles.content}>

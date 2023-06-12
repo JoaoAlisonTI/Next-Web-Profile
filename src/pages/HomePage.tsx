@@ -1,3 +1,4 @@
+import Header from '@/components/Header/Header'
 import Footer from '@/components/Footer/Footer'
 import SkillsStats from '@/components/SkillsStats/SkillsStats'
 import SkillsTech from '@/components/SkillsTech/SkillsTech'
@@ -10,6 +11,7 @@ import styles from '../styles/HomePage.module.css'
 export default function HomePage() {
   return (
   <>
+      <Header />
         <section className={styles.sectionAbout}>
          <div className={styles.divImage}>
                 <Image 

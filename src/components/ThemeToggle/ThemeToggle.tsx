@@ -1,4 +1,4 @@
-import { useEffect ,useState } from 'react';
+import { useEffect, useState } from 'react';
 import { ThemeProvider, CssBaseline, Switch, styled } from '@mui/material';
 import { BsMoonStarsFill, BsSunFill } from 'react-icons/bs'
 import { darkTheme, lightTheme } from '../../theme/theme';
@@ -21,19 +21,25 @@ const CustomSwitch = styled(Switch)(({ theme }) => ({
 
 const ThemeToggle = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
-  
+  const [isLoading, setIsLoading] = useState(true); // Novo estado de loading
+
   useEffect(() => {
     const storedMode = localStorage.getItem('themeMode');
     if (storedMode) {
       setIsDarkMode(storedMode === 'dark');
     }
+    setIsLoading(false); // Definir o estado de loading como false após a leitura do valor do tema
   }, []);
-  
+
   const handleToggleTheme = () => {
     const newMode = !isDarkMode ? 'dark' : 'light';
     setIsDarkMode(!isDarkMode);
     localStorage.setItem('themeMode', newMode);
   };
+
+  if (isLoading) {
+    return null; // Ou você pode mostrar um indicador de carregamento enquanto o tema está sendo lido
+  }
 
   return (
     <ThemeProvider theme={isDarkMode ? darkTheme : lightTheme}>
