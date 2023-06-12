@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, createContext, useContext } from 'react';
 import { ThemeProvider, CssBaseline, Switch, styled } from '@mui/material';
 import { BsMoonStarsFill, BsSunFill } from 'react-icons/bs'
 import { darkTheme, lightTheme } from '../../theme/theme';
@@ -19,39 +19,52 @@ const CustomSwitch = styled(Switch)(({ theme }) => ({
   },
 }));
 
-const ThemeToggle: React.FC = () => {
+interface ThemeContextProps {
+  isDarkMode: boolean;
+  toggleTheme: () => void;
+}
+
+const ThemeContext = createContext<ThemeContextProps | undefined>(undefined);
+
+const ThemeProviderWrapper: React.FC = ({ children }) => {
   const [isDarkMode, setIsDarkMode] = useState(false);
-  const [isLoaded, setIsLoaded] = useState(false); // Novo estado de carregamento
 
   useEffect(() => {
     const storedMode = localStorage.getItem('themeMode');
     if (storedMode) {
       setIsDarkMode(storedMode === 'dark');
     }
-    setIsLoaded(true); // Definir o estado de carregamento como true após a leitura do valor do tema
   }, []);
 
-  const handleToggleTheme = () => {
+  const toggleTheme = () => {
     const newMode = !isDarkMode ? 'dark' : 'light';
     setIsDarkMode(!isDarkMode);
     localStorage.setItem('themeMode', newMode);
   };
 
-  if (!isLoaded) {
-    return null; // Ou você pode mostrar um indicador de carregamento enquanto o tema está sendo lido
-  }
+  const theme = isDarkMode ? darkTheme : lightTheme;
 
   return (
-    <ThemeProvider theme={isDarkMode ? darkTheme : lightTheme}>
-      <CssBaseline />
-      <CustomSwitch
-        checked={isDarkMode}
-        onChange={handleToggleTheme}
-        icon={<BsSunFill />}
-        checkedIcon={<BsMoonStarsFill />}
-      />
-    </ThemeProvider>
+    <ThemeContext.Provider value={{ isDarkMode, toggleTheme }}>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        {children}
+      </ThemeProvider>
+    </ThemeContext.Provider>
   );
 };
 
-export default ThemeToggle;
+const ThemeToggle: React.FC = () => {
+  const { isDarkMode, toggleTheme } = useContext(ThemeContext);
+
+  return (
+    <CustomSwitch
+      checked={isDarkMode}
+      onChange={toggleTheme}
+      icon={<BsSunFill />}
+      checkedIcon={<BsMoonStarsFill />}
+    />
+  );
+};
+
+export { ThemeProviderWrapper, ThemeToggle };
