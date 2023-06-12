@@ -19,16 +19,16 @@ const CustomSwitch = styled(Switch)(({ theme }) => ({
   },
 }));
 
-const ThemeToggle = () => {
+const ThemeToggle: React.FC = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
-  const [isLoading, setIsLoading] = useState(true); // Novo estado de loading
+  const [isLoaded, setIsLoaded] = useState(false); // Novo estado de carregamento
 
   useEffect(() => {
     const storedMode = localStorage.getItem('themeMode');
     if (storedMode) {
       setIsDarkMode(storedMode === 'dark');
     }
-    setIsLoading(false); // Definir o estado de loading como false após a leitura do valor do tema
+    setIsLoaded(true); // Definir o estado de carregamento como true após a leitura do valor do tema
   }, []);
 
   const handleToggleTheme = () => {
@@ -37,7 +37,7 @@ const ThemeToggle = () => {
     localStorage.setItem('themeMode', newMode);
   };
 
-  if (isLoading) {
+  if (!isLoaded) {
     return null; // Ou você pode mostrar um indicador de carregamento enquanto o tema está sendo lido
   }
 
