@@ -1,4 +1,3 @@
-import Header from '@/components/Header/Header'
 import Footer from '@/components/Footer/Footer'
 import CarouselCertifications from '@/components/CarouselCertifications/CarouselCertifications'
 import SkillsStats from '@/components/SkillsStats/SkillsStats'
@@ -9,7 +8,6 @@ import styles from '../styles/ProfilePage.module.css'
 export default function ProfilePage() {
   return (
     <>
-      <Header />
       <section className={styles.sectionProfile}>
               <div className={styles.myProfile}>
                 <h1>Profile</h1>
