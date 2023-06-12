@@ -1,4 +1,4 @@
-import { useEffect, useState, createContext, useContext } from 'react';
+import { useEffect ,useState } from 'react';
 import { ThemeProvider, CssBaseline, Switch, styled } from '@mui/material';
 import { BsMoonStarsFill, BsSunFill } from 'react-icons/bs'
 import { darkTheme, lightTheme } from '../../theme/theme';
@@ -19,52 +19,33 @@ const CustomSwitch = styled(Switch)(({ theme }) => ({
   },
 }));
 
-interface ThemeContextProps {
-  isDarkMode: boolean;
-  toggleTheme: () => void;
-}
-
-const ThemeContext = createContext<ThemeContextProps | undefined>(undefined);
-
-const ThemeProviderWrapper: React.FC<React.PropsWithChildren<{}>> = ({ children }) => {
+const ThemeToggle = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
-
+  
   useEffect(() => {
     const storedMode = localStorage.getItem('themeMode');
     if (storedMode) {
       setIsDarkMode(storedMode === 'dark');
     }
   }, []);
-
-  const toggleTheme = () => {
+  
+  const handleToggleTheme = () => {
     const newMode = !isDarkMode ? 'dark' : 'light';
     setIsDarkMode(!isDarkMode);
     localStorage.setItem('themeMode', newMode);
   };
 
-  const theme = isDarkMode ? darkTheme : lightTheme;
-
   return (
-    <ThemeContext.Provider value={{ isDarkMode, toggleTheme }}>
-      <ThemeProvider theme={theme}>
-        <CssBaseline />
-        {children}
-      </ThemeProvider>
-    </ThemeContext.Provider>
+    <ThemeProvider theme={isDarkMode ? darkTheme : lightTheme}>
+      <CssBaseline />
+      <CustomSwitch
+        checked={isDarkMode}
+        onChange={handleToggleTheme}
+        icon={<BsSunFill />}
+        checkedIcon={<BsMoonStarsFill />}
+      />
+    </ThemeProvider>
   );
 };
 
-const ThemeToggle: React.FC = () => {
-  const { isDarkMode, toggleTheme } = useContext(ThemeContext);
-
-  return (
-    <CustomSwitch
-      checked={isDarkMode}
-      onChange={toggleTheme}
-      icon={<BsSunFill />}
-      checkedIcon={<BsMoonStarsFill />}
-    />
-  );
-};
-
-export { ThemeProviderWrapper, ThemeToggle };
+export default ThemeToggle;

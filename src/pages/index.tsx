@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { ThemeProviderWrapper } from '@/components/ThemeToggle/ThemeToggle'
 import HomePage from './HomePage'
 
 export default function Home() {
@@ -12,9 +11,7 @@ export default function Home() {
         <link rel="icon" type="image/png" href="/icon.png" />
       </Head>
       <main>
-       <ThemeProviderWrapper>
         <HomePage />
-        </ThemeProviderWrapper>
       </main>
     </>
   )

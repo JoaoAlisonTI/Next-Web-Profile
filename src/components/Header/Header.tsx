@@ -3,7 +3,7 @@ import styles from '@/components/Header/Header.module.css'
 import { SlMenu } from 'react-icons/sl'
 import { MdClose } from 'react-icons/md'
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
-import { ThemeToggle } from '@/components/ThemeToggle/ThemeToggle'
+import ThemeToggle from '@/components/ThemeToggle/ThemeToggle'
 import Image from 'next/image'
 import Link from 'next/link'
 
