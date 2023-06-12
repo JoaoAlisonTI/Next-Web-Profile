@@ -26,7 +26,7 @@ interface ThemeContextProps {
 
 const ThemeContext = createContext<ThemeContextProps | undefined>(undefined);
 
-const ThemeProviderWrapper: React.FC = ({ children }) => {
+const ThemeProviderWrapper: React.FC<React.PropsWithChildren<{}>> = ({ children }) => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
