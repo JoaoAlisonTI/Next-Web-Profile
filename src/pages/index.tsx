@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import ThemeProviderWrapper from '@/components/ThemeToggle/ThemeToggle'
+import { ThemeProviderWrapper } from '@/components/ThemeToggle/ThemeToggle'
 import HomePage from './HomePage'
 
 export default function Home() {
