@@ -38,7 +38,7 @@ export default function HomePage() {
               <div>
               <Link 
               className={styles.btnCv}
-              href="ProfilePage">
+              href="profile">
               Leia mais
               </Link>
               </div>

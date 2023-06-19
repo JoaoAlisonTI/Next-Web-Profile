@@ -34,8 +34,8 @@ export default function Header() {
       </span>
       <div className={styles.headerLinks}>
        <Link className={styles.linksNav} href="/">Home</Link>
-       <Link className={styles.linksNav} href="ProfilePage">Sobre mim</Link>
-       <Link className={styles.linksNav} href="ProjectsPage">Projetos</Link>
+       <Link className={styles.linksNav} href="profile">Sobre mim</Link>
+       <Link className={styles.linksNav} href="projects">Projetos</Link>
       </div>
       <div className={styles.divChange}>
       <ThemeToggle />
@@ -52,8 +52,8 @@ export default function Header() {
           </div>
           <div className={styles.navLinks}>
               <Link href="/">Home</Link>
-              <Link href="ProfilePage">Sobre mim</Link>
-              <Link href="ProjectsPage">Projetos</Link>
+              <Link href="profile">Sobre mim</Link>
+              <Link href="projects">Projetos</Link>
           </div>
           <div className={styles.socialMedia}>
             <a href="https://github.com/JoaoAlisonTI" target="_blank" className={styles.btnMedia}><FaGithub />
