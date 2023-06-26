@@ -25,6 +25,10 @@ export default function CarouselCertifications() {
       src: '/certificados/hero-code.jpg',
       description: 'Workshop Semanda do Herói - Hero Code',
     },
+    {
+      src: '/certificados/workshop-ebac.jpg',
+      description: 'Jornada Full Stack: Criando um Clone do TikTok!',
+    },
   ];
   
   useEffect(() => {
